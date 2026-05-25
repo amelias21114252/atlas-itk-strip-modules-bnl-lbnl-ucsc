@@ -674,7 +674,35 @@ These timestamp entries connect each HX serial number with its ML parent module 
 
 ---
 
-# 21. Copy Category A serial numbers into the webpage generator
+# 21. Generate and copy Category A serial numbers
+
+Category A is for ML serial numbers only.
+
+Category A means:
+
+```text
+IV current above 300 nA threshold.
+One or more IV JSON files show HIGH CURRENT WARNING.
+These modules have leakage/current values exceeding the allowed limit.
+```
+
+First, copy and paste the Category A error section from:
+
+```text
+iv_error_summary.txt
+```
+
+into the raw text section of the corresponding Category A generator script.
+
+Then run:
+
+```bash
+python generate_categoryA_BNL.py
+python generate_categoryA_LBNL.py
+python generate_categoryA_UCSC.py
+```
+
+These scripts generate the ML serial-number lists for Category A.
 
 Open:
 
@@ -688,21 +716,47 @@ Find the section:
 category_a_iv_high
 ```
 
-Copy and paste ML serial numbers into the corresponding BNL, LBNL, or UCSC ML-only section.
-
-Category A is only for ML serial numbers.
-
-Category A means:
+Copy and paste the ML serial-number list from:
 
 ```text
-IV current above 300 nA threshold.
-One or more IV JSON files show HIGH CURRENT WARNING.
-These modules have leakage/current values exceeding the allowed limit.
+generate_categoryA_BNL.py
+generate_categoryA_LBNL.py
+generate_categoryA_UCSC.py
 ```
+
+into the corresponding BNL, LBNL, or UCSC ML-only sections.
 
 ---
 
-# 22. Copy Category B serial numbers into the webpage generator
+# 22. Generate and copy Category B serial numbers
+
+Category B is for HX serial numbers only.
+
+Category B means:
+
+```text
+Input-noise mean above 1100.
+One or more input-noise JSON files have mean noise > 1100.
+These modules show excessive input noise and fail the noise threshold requirement.
+```
+
+First, copy and paste the Category B error section from:
+
+```text
+histograms_combined_noskip_error_summary.txt
+```
+
+into the raw text section of the corresponding Category B generator script.
+
+Then run:
+
+```bash
+python generate_categoryB_BNL.py
+python generate_categoryB_LBNL.py
+python generate_categoryB_UCSC.py
+```
+
+These scripts generate the HX serial-number lists for Category B.
 
 Open:
 
@@ -716,21 +770,46 @@ Find the section:
 category_b_noise_high
 ```
 
-Copy and paste HX serial numbers into the corresponding BNL, LBNL, or UCSC HX-only section.
-
-Category B is only for HX serial numbers.
-
-Category B means:
+Copy and paste the HX serial-number list from:
 
 ```text
-Input-noise mean above 1100.
-One or more input-noise JSON files have mean noise > 1100.
-These modules show excessive input noise and fail the noise threshold requirement.
+generate_categoryB_BNL.py
+generate_categoryB_LBNL.py
+generate_categoryB_UCSC.py
 ```
+
+into the corresponding BNL, LBNL, or UCSC HX-only sections.
 
 ---
 
-# 23. Copy Category C serial numbers into the webpage generator
+# 23. Generate and copy Category C serial numbers
+
+Category C is for HX serial numbers only.
+
+Category C means:
+
+```text
+Input-noise values are below the low-noise threshold.
+These modules contain unusually low input-noise values.
+```
+
+First, copy and paste the Category C error section from:
+
+```text
+histograms_combined_noskip_error_summary.txt
+```
+
+into the raw text section of the corresponding Category C generator script.
+
+Then run:
+
+```bash
+python generate_categoryC_BNL.py
+python generate_categoryC_LBNL.py
+python generate_categoryC_UCSC.py
+```
+
+These scripts generate the HX serial-number lists for Category C.
 
 Open:
 
@@ -744,20 +823,46 @@ Find the section:
 category_c_noise_low
 ```
 
-Copy and paste HX serial numbers into the corresponding BNL, LBNL, or UCSC HX-only section.
-
-Category C is only for HX serial numbers.
-
-Category C means:
+Copy and paste the HX serial-number list from:
 
 ```text
-Input-noise values are below the low-noise threshold.
-These modules contain unusually low input-noise values.
+generate_categoryC_BNL.py
+generate_categoryC_LBNL.py
+generate_categoryC_UCSC.py
 ```
+
+into the corresponding BNL, LBNL, or UCSC HX-only sections.
 
 ---
 
-# 24. Copy Category D(i) serial numbers into the webpage generator
+# 24. Generate and copy Category D(i) serial numbers
+
+Category D(i) is for ML serial numbers only.
+
+Category D(i) means:
+
+```text
+Incomplete IV dataset.
+The IV test exists, but the expected number of IV JSON files was not generated.
+```
+
+First, copy and paste the Category D error section from:
+
+```text
+iv_error_summary.txt
+```
+
+into the raw text section of the corresponding Category D generator script.
+
+Then run:
+
+```bash
+python generate_categoryD_BNL.py
+python generate_categoryD_LBNL.py
+python generate_categoryD_UCSC.py
+```
+
+These scripts generate the ML serial-number lists for Category D(i).
 
 Open:
 
@@ -771,22 +876,44 @@ Find the section:
 category_d_i_iv_incomplete
 ```
 
-Copy and paste ML serial numbers into the corresponding BNL, LBNL, or UCSC ML-only section.
-
-Category D(i) is only for ML serial numbers.
-
-Category D(i) means:
+Copy and paste the ML serial-number list from:
 
 ```text
-Incomplete IV dataset.
-The IV test exists, but the expected number of IV JSON files was not generated.
+generate_categoryD_BNL.py
+generate_categoryD_LBNL.py
+generate_categoryD_UCSC.py
 ```
+
+into the corresponding BNL, LBNL, or UCSC ML-only sections.
 
 ---
 
 # 25. Copy Category D(ii) serial numbers into the webpage generator
 
-Open:
+Category D(ii) is for HX serial numbers only.
+
+Category D(ii) means:
+
+```text
+Incomplete input-noise dataset.
+The input-noise test exists, but the expected number of input-noise JSON files was not generated.
+```
+
+Open the corresponding HX summary file:
+
+```text
+summary_page_bnl_HX.txt
+summary_page_lbnl_HX.txt
+summary_page_ucsc_HX.txt
+```
+
+Copy the HX serial-number list from:
+
+```python
+category_d_modules
+```
+
+Then open:
 
 ```text
 generate_channel_page_scrolldetailedhis.py
@@ -798,22 +925,36 @@ Find the section:
 category_d_ii_inputnoise_incomplete
 ```
 
-Copy and paste HX serial numbers into the corresponding BNL, LBNL, or UCSC HX-only section.
-
-Category D(ii) is only for HX serial numbers.
-
-Category D(ii) means:
-
-```text
-Incomplete input-noise dataset.
-The input-noise test exists, but the expected number of input-noise JSON files was not generated.
-```
+Copy and paste the HX serial numbers into the corresponding BNL, LBNL, or UCSC HX-only sections.
 
 ---
 
 # 26. Copy Category E(i) serial numbers into the webpage generator
 
-Open:
+Category E(i) is for ML serial numbers only.
+
+Category E(i) means:
+
+```text
+IV data unavailable or could not be processed.
+The IV data is missing, inaccessible, or the script could not process it correctly.
+```
+
+Open the corresponding ML summary file:
+
+```text
+summary_page_bnl_ml.txt
+summary_page_lbnl_ml.txt
+summary_page_ucsc_ml.txt
+```
+
+Copy the ML serial-number list from:
+
+```python
+not_working_modules
+```
+
+Then open:
 
 ```text
 generate_channel_page_scrolldetailedhis.py
@@ -825,22 +966,36 @@ Find the section:
 category_e_i_iv_unavailable
 ```
 
-Copy and paste ML serial numbers into the corresponding BNL, LBNL, or UCSC ML-only section.
-
-Category E(i) is only for ML serial numbers.
-
-Category E(i) means:
-
-```text
-IV data unavailable or could not be processed.
-The IV data is missing, inaccessible, or the script could not process it correctly.
-```
+Copy and paste the ML serial numbers into the corresponding BNL, LBNL, or UCSC ML-only sections.
 
 ---
 
 # 27. Copy Category E(ii) serial numbers into the webpage generator
 
-Open:
+Category E(ii) is for HX serial numbers only.
+
+Category E(ii) means:
+
+```text
+Input-noise data unavailable or could not be processed.
+The input-noise data is missing, inaccessible, or the script could not process it correctly.
+```
+
+Open the corresponding HX summary file:
+
+```text
+summary_page_bnl_HX.txt
+summary_page_lbnl_HX.txt
+summary_page_ucsc_HX.txt
+```
+
+Copy the HX serial-number list from:
+
+```python
+category_e_ii_modules
+```
+
+Then open:
 
 ```text
 generate_channel_page_scrolldetailedhis.py
@@ -852,16 +1007,7 @@ Find the section:
 category_e_ii_inputnoise_unavailable
 ```
 
-Copy and paste HX serial numbers into the corresponding BNL, LBNL, or UCSC HX-only section.
-
-Category E(ii) is only for HX serial numbers.
-
-Category E(ii) means:
-
-```text
-Input-noise data unavailable or could not be processed.
-The input-noise data is missing, inaccessible, or the script could not process it correctly.
-```
+Copy and paste the HX serial numbers into the corresponding BNL, LBNL, or UCSC HX-only sections.
 
 ---
 
@@ -914,7 +1060,6 @@ ucsc.html
 
 These pages show the IV plots, input-noise plots, combined histograms, detailed histograms, JSON files, timestamps, comments, and category notes.
 
----
 
 # 30. What each webpage row shows
 
@@ -1071,6 +1216,7 @@ A few useful naming conventions used in this workflow:
 - **Module IV with PS V1**: used for pre-gluing IV data
 
 
+
 # 34. Category definitions
 
 Category A means the IV current is above the 300 nA threshold.
@@ -1168,6 +1314,26 @@ python plot_multi_inputnoise_noskip_UCSC.py -i "UCSC/HX/SN*/*.json"
 python plot_combined_inputnoise_UCSC.py -i "UCSC/HX/SN*/*.json"
 python plot_combined_inputnoise_noskip_UCSC.py -i "UCSC/HX/SN*/*.json"
 python plot_detailed_inputnoise_histograms_per_file_UCSC.py -i "UCSC/HX/SN*/*.json"
+```
+
+Run the category serial-number generator scripts:
+
+```bash
+python generate_categoryA_BNL.py
+python generate_categoryA_LBNL.py
+python generate_categoryA_UCSC.py
+
+python generate_categoryB_BNL.py
+python generate_categoryB_LBNL.py
+python generate_categoryB_UCSC.py
+
+python generate_categoryC_BNL.py
+python generate_categoryC_LBNL.py
+python generate_categoryC_UCSC.py
+
+python generate_categoryD_BNL.py
+python generate_categoryD_LBNL.py
+python generate_categoryD_UCSC.py
 ```
 
 Run the timestamp scripts:
