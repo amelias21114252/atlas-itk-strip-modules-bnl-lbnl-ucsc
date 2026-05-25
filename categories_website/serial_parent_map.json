@@ -1,0 +1,8542 @@
+[
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001619",
+    "parent": "SN20USBML1235091",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001626",
+    "parent": "SN20USBML1235094",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001632",
+    "parent": "SN20USBML1235097",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001629",
+    "parent": "SN20USBML1235096",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001624",
+    "parent": "SN20USBML1235100",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001625",
+    "parent": "SN20USBML1235093",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001627",
+    "parent": "SN20USBML1235095",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001631",
+    "parent": "SN20USBML1235098",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001623",
+    "parent": "SN20USBML1235092",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001635",
+    "parent": "SN20USBML1235101",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001636",
+    "parent": "SN20USBML1235102",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2001630",
+    "parent": "SN20USBML1235099",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002099",
+    "parent": "SN20USBML1235274",
+    "timestamp": "2025-01-31 19:58:36",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002020",
+    "parent": "SN20USBML1235275",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002301",
+    "parent": "SN20USBML1235276",
+    "timestamp": "2025-03-21 19:39:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002303",
+    "parent": "SN20USBML1235277",
+    "timestamp": "2025-03-21 19:40:30",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002302",
+    "parent": "SN20USBML1235278",
+    "timestamp": "2025-03-21 19:40:08",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002494",
+    "parent": "SN20USBML1235279",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002495",
+    "parent": "SN20USBML1235280",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002499",
+    "parent": "SN20USBML1235281",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002496",
+    "parent": "SN20USBML1235282",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002497",
+    "parent": "SN20USBML1235730",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002498",
+    "parent": "SN20USBML1235731",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002571",
+    "parent": "SN20USBML1235747",
+    "timestamp": "2025-04-30 14:06:19",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002572",
+    "parent": "SN20USBML1235748",
+    "timestamp": "2025-04-30 14:07:31",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002587",
+    "parent": "SN20USBML1235749",
+    "timestamp": "2025-04-30 17:54:58",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002588",
+    "parent": "SN20USBML1235750",
+    "timestamp": "2025-04-30 17:55:41",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002590",
+    "parent": "SN20USBML1235755",
+    "timestamp": "2025-04-30 17:56:52",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002575",
+    "parent": "SN20USBML1235756",
+    "timestamp": "2025-04-30 14:09:08",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002597",
+    "parent": "SN20USBML1235757",
+    "timestamp": "2025-05-02 13:57:32",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002598",
+    "parent": "SN20USBML1235758",
+    "timestamp": "2025-05-02 13:58:05",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002591",
+    "parent": "SN20USBML1235760",
+    "timestamp": "2025-05-01 16:40:59",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002592",
+    "parent": "SN20USBML1235761",
+    "timestamp": "2025-05-01 16:41:25",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002593",
+    "parent": "SN20USBML1235762",
+    "timestamp": "2025-05-01 16:41:56",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002594",
+    "parent": "SN20USBML1235763",
+    "timestamp": "2025-05-01 16:42:24",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002627",
+    "parent": "SN20USBML1235850",
+    "timestamp": "2025-05-16 14:57:20",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002628",
+    "parent": "SN20USBML1235851",
+    "timestamp": "2025-05-16 15:01:54",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002657",
+    "parent": "SN20USBML1235852",
+    "timestamp": "2025-05-29 18:50:32",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002683",
+    "parent": "SN20USBML1235853",
+    "timestamp": "2025-06-02 16:59:58",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002629",
+    "parent": "SN20USBML1235873",
+    "timestamp": "2025-05-16 15:02:38",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002630",
+    "parent": "SN20USBML1235874",
+    "timestamp": "2025-05-16 15:03:05",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002603",
+    "parent": "SN20USBML1235875",
+    "timestamp": "2025-05-08 17:51:04",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002631",
+    "parent": "SN20USBML1235876",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002652",
+    "parent": "SN20USBML1235877",
+    "timestamp": "2025-05-29 18:47:56",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002653",
+    "parent": "SN20USBML1235878",
+    "timestamp": "2025-05-29 18:48:38",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003562",
+    "parent": "SN20USBML1235879",
+    "timestamp": "2025-09-09 17:05:50",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002654",
+    "parent": "SN20USBML1235880",
+    "timestamp": "2025-05-29 18:49:19",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002656",
+    "parent": "SN20USBML1235881",
+    "timestamp": "2025-05-29 18:50:09",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002684",
+    "parent": "SN20USBML1235882",
+    "timestamp": "2025-06-02 17:03:46",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003551",
+    "parent": "SN20USBML1235883",
+    "timestamp": "2025-09-09 16:47:11",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002685",
+    "parent": "SN20USBML1235884",
+    "timestamp": "2025-06-02 17:04:05",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002686",
+    "parent": "SN20USBML1235885",
+    "timestamp": "2025-06-02 17:04:19",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002687",
+    "parent": "SN20USBML1235886",
+    "timestamp": "2025-06-02 17:04:34",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002688",
+    "parent": "SN20USBML1235887",
+    "timestamp": "2025-06-02 17:04:47",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002709",
+    "parent": "SN20USBML1235888",
+    "timestamp": "2025-06-04 16:26:12",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002710",
+    "parent": "SN20USBML1235889",
+    "timestamp": "2025-06-04 16:27:51",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002711",
+    "parent": "SN20USBML1235907",
+    "timestamp": "2025-06-04 16:29:00",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002712",
+    "parent": "SN20USBML1235908",
+    "timestamp": "2025-06-04 16:29:30",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002713",
+    "parent": "SN20USBML1235909",
+    "timestamp": "2025-06-04 16:29:51",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002677",
+    "parent": "SN20USBML1235919",
+    "timestamp": "2025-06-02 16:47:23",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002678",
+    "parent": "SN20USBML1235920",
+    "timestamp": "2025-06-02 16:50:36",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002679",
+    "parent": "SN20USBML1235921",
+    "timestamp": "2025-06-02 16:55:27",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002680",
+    "parent": "SN20USBML1235922",
+    "timestamp": "2025-06-02 16:55:46",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002655",
+    "parent": "SN20USBML1235923",
+    "timestamp": "2025-05-29 18:49:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002691",
+    "parent": "SN20USBML1235924",
+    "timestamp": "2025-06-03 18:19:33",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002692",
+    "parent": "SN20USBML1235925",
+    "timestamp": "2025-06-03 18:20:04",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002693",
+    "parent": "SN20USBML1235926",
+    "timestamp": "2025-06-03 18:20:29",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002689",
+    "parent": "SN20USBML1235927",
+    "timestamp": "2025-06-03 18:07:07",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002681",
+    "parent": "SN20USBML1235928",
+    "timestamp": "2025-06-02 16:56:05",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002682",
+    "parent": "SN20USBML1235929",
+    "timestamp": "2025-06-02 16:56:29",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002690",
+    "parent": "SN20USBML1236083",
+    "timestamp": "2025-06-03 18:18:45",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002694",
+    "parent": "SN20USBML1236084",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002695",
+    "parent": "SN20USBML1236085",
+    "timestamp": "2025-06-03 18:25:56",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002783",
+    "parent": "SN20USBML1236086",
+    "timestamp": "2025-06-10 18:38:51",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002697",
+    "parent": "SN20USBML1236087",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002698",
+    "parent": "SN20USBML1236088",
+    "timestamp": "2025-06-03 18:31:15",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002784",
+    "parent": "SN20USBML1236090",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002785",
+    "parent": "SN20USBML1236091",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002786",
+    "parent": "SN20USBML1236092",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002940",
+    "parent": "SN20USBML1236093",
+    "timestamp": "2025-06-30 19:20:17",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002942",
+    "parent": "SN20USBML1236094",
+    "timestamp": "2025-06-30 19:21:05",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002943",
+    "parent": "SN20USBML1236095",
+    "timestamp": "2025-06-30 19:21:24",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002938",
+    "parent": "SN20USBML1236096",
+    "timestamp": "2025-06-30 18:40:10",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002939",
+    "parent": "SN20USBML1236097",
+    "timestamp": "2025-06-30 19:19:57",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002944",
+    "parent": "SN20USBML1236098",
+    "timestamp": "2025-06-30 19:21:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002953",
+    "parent": "SN20USBML1236100",
+    "timestamp": "2025-07-01 16:46:24",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002954",
+    "parent": "SN20USBML1236101",
+    "timestamp": "2025-07-01 16:46:50",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002956",
+    "parent": "SN20USBML1236102",
+    "timestamp": "2025-07-01 16:47:27",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002957",
+    "parent": "SN20USBML1236103",
+    "timestamp": "2025-07-01 16:47:46",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002971",
+    "parent": "SN20USBML1236104",
+    "timestamp": "2025-07-02 14:51:54",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002964",
+    "parent": "SN20USBML1236105",
+    "timestamp": "2025-07-02 14:46:11",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002965",
+    "parent": "SN20USBML1236106",
+    "timestamp": "2025-07-02 14:46:56",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002966",
+    "parent": "SN20USBML1236107",
+    "timestamp": "2025-07-02 14:47:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002967",
+    "parent": "SN20USBML1236108",
+    "timestamp": "2025-07-02 14:49:22",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002983",
+    "parent": "SN20USBML1236109",
+    "timestamp": "2025-07-03 15:37:37",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002960",
+    "parent": "SN20USBML1236110",
+    "timestamp": "2025-07-02 14:43:16",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002961",
+    "parent": "SN20USBML1236111",
+    "timestamp": "2025-07-02 14:44:10",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002787",
+    "parent": "SN20USBML1236112",
+    "timestamp": "2025-06-10 19:06:00",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002959",
+    "parent": "SN20USBML1236113",
+    "timestamp": "2025-07-01 16:49:31",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002958",
+    "parent": "SN20USBML1236148",
+    "timestamp": "2025-07-01 16:48:03",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002980",
+    "parent": "SN20USBML1236149",
+    "timestamp": "2025-07-03 15:36:00",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002981",
+    "parent": "SN20USBML1236150",
+    "timestamp": "2025-07-03 15:36:39",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002982",
+    "parent": "SN20USBML1236151",
+    "timestamp": "2025-07-03 15:37:04",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002968",
+    "parent": "SN20USBML1236152",
+    "timestamp": "2025-07-02 14:49:49",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002969",
+    "parent": "SN20USBML1236153",
+    "timestamp": "2025-07-02 14:50:21",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002970",
+    "parent": "SN20USBML1236154",
+    "timestamp": "2025-07-02 14:51:15",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003655",
+    "parent": "SN20USBML1236155",
+    "timestamp": "2025-09-12 12:41:47",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002962",
+    "parent": "SN20USBML1236156",
+    "timestamp": "2025-07-02 14:44:52",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002963",
+    "parent": "SN20USBML1236157",
+    "timestamp": "2025-07-02 14:45:39",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002986",
+    "parent": "SN20USBML1236158",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003063",
+    "parent": "SN20USBML1236159",
+    "timestamp": "2025-07-15 16:27:10",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003058",
+    "parent": "SN20USBML1236160",
+    "timestamp": "2025-07-15 16:21:07",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003059",
+    "parent": "SN20USBML1236161",
+    "timestamp": "2025-07-15 16:26:03",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003060",
+    "parent": "SN20USBML1236162",
+    "timestamp": "2025-07-15 16:26:23",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003061",
+    "parent": "SN20USBML1236163",
+    "timestamp": "2025-07-15 16:26:37",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003042",
+    "parent": "SN20USBML1236165",
+    "timestamp": "2025-07-11 17:44:26",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003041",
+    "parent": "SN20USBML1236166",
+    "timestamp": "2025-07-11 17:44:08",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003036",
+    "parent": "SN20USBML1236167",
+    "timestamp": "2025-07-11 17:41:39",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003037",
+    "parent": "SN20USBML1236168",
+    "timestamp": "2025-07-11 17:42:43",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003038",
+    "parent": "SN20USBML1236169",
+    "timestamp": "2025-07-11 17:43:08",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003039",
+    "parent": "SN20USBML1236170",
+    "timestamp": "2025-07-11 17:43:30",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003040",
+    "parent": "SN20USBML1236171",
+    "timestamp": "2025-07-11 17:43:50",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003233",
+    "parent": "SN20USBML1236172",
+    "timestamp": "2025-07-31 12:10:16",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003238",
+    "parent": "SN20USBML1236174",
+    "timestamp": "2025-07-31 12:13:13",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003234",
+    "parent": "SN20USBML1236175",
+    "timestamp": "2025-07-31 12:11:06",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003240",
+    "parent": "SN20USBML1236337",
+    "timestamp": "2025-08-01 14:30:13",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003242",
+    "parent": "SN20USBML1236338",
+    "timestamp": "2025-08-01 14:31:54",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003243",
+    "parent": "SN20USBML1236339",
+    "timestamp": "2025-08-01 14:32:22",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003244",
+    "parent": "SN20USBML1236340",
+    "timestamp": "2025-08-01 14:32:53",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003130",
+    "parent": "SN20USBML1236341",
+    "timestamp": "2025-07-21 16:26:16",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003131",
+    "parent": "SN20USBML1236342",
+    "timestamp": "2025-07-21 16:27:21",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003134",
+    "parent": "SN20USBML1236343",
+    "timestamp": "2025-07-21 16:28:25",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003135",
+    "parent": "SN20USBML1236344",
+    "timestamp": "2025-07-21 16:28:44",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003540",
+    "parent": "SN20USBML1236448",
+    "timestamp": "2025-09-09 16:30:21",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003541",
+    "parent": "SN20USBML1236449",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003542",
+    "parent": "SN20USBML1236450",
+    "timestamp": "2025-09-09 16:35:19",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003543",
+    "parent": "SN20USBML1236451",
+    "timestamp": "2025-09-09 16:35:49",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003560",
+    "parent": "SN20USBML1236452",
+    "timestamp": "2025-09-09 17:04:40",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003561",
+    "parent": "SN20USBML1236453",
+    "timestamp": "2025-09-09 17:05:30",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003563",
+    "parent": "SN20USBML1236454",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003564",
+    "parent": "SN20USBML1236455",
+    "timestamp": "2025-09-09 17:06:38",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003565",
+    "parent": "SN20USBML1236456",
+    "timestamp": "2025-09-09 17:07:04",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003566",
+    "parent": "SN20USBML1236457",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003545",
+    "parent": "SN20USBML1236565",
+    "timestamp": "2025-09-09 16:36:38",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003559",
+    "parent": "SN20USBML1236566",
+    "timestamp": "2025-09-09 17:03:45",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003558",
+    "parent": "SN20USBML1236567",
+    "timestamp": "2025-09-09 17:03:25",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003666",
+    "parent": "SN20USBML1236568",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003548",
+    "parent": "SN20USBML1236604",
+    "timestamp": "2025-09-09 16:46:00",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003549",
+    "parent": "SN20USBML1236605",
+    "timestamp": "2025-09-09 16:46:21",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003550",
+    "parent": "SN20USBML1236606",
+    "timestamp": "2025-09-09 16:46:48",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003553",
+    "parent": "SN20USBML1236607",
+    "timestamp": "2025-09-09 16:56:08",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003554",
+    "parent": "SN20USBML1236608",
+    "timestamp": "2025-09-09 16:57:04",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003557",
+    "parent": "SN20USBML1236609",
+    "timestamp": "2025-09-09 17:02:31",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003672",
+    "parent": "SN20USBML1236610",
+    "timestamp": "2025-09-12 12:56:31",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003546",
+    "parent": "SN20USBML1236611",
+    "timestamp": "2025-09-09 16:38:56",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003547",
+    "parent": "SN20USBML1236612",
+    "timestamp": "2025-09-09 16:45:33",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003555",
+    "parent": "SN20USBML1236613",
+    "timestamp": "2025-09-09 16:57:35",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003556",
+    "parent": "SN20USBML1236614",
+    "timestamp": "2025-09-09 16:58:00",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003544",
+    "parent": "SN20USBML1236615",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003644",
+    "parent": "SN20USBML1236677",
+    "timestamp": "2025-09-12 11:39:43",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003645",
+    "parent": "SN20USBML1236678",
+    "timestamp": "2025-09-12 11:40:28",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003647",
+    "parent": "SN20USBML1236679",
+    "timestamp": "2025-09-12 11:41:31",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003669",
+    "parent": "SN20USBML1236680",
+    "timestamp": "2025-09-12 12:53:31",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003671",
+    "parent": "SN20USBML1236681",
+    "timestamp": "2025-09-12 12:56:08",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003652",
+    "parent": "SN20USBML1236682",
+    "timestamp": "2025-09-12 12:40:08",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003659",
+    "parent": "SN20USBML1236683",
+    "timestamp": "2025-09-12 12:44:50",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003653",
+    "parent": "SN20USBML1236684",
+    "timestamp": "2025-09-12 12:40:40",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003654",
+    "parent": "SN20USBML1236685",
+    "timestamp": "2025-09-12 12:41:09",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003658",
+    "parent": "SN20USBML1236686",
+    "timestamp": "2025-09-12 12:43:29",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003657",
+    "parent": "SN20USBML1236687",
+    "timestamp": "2025-09-12 12:43:07",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003865",
+    "parent": "SN20USBML1236688",
+    "timestamp": "2025-10-08 18:07:05",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003866",
+    "parent": "SN20USBML1236689",
+    "timestamp": "2025-10-08 18:07:21",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003867",
+    "parent": "SN20USBML1236690",
+    "timestamp": "2025-10-08 18:07:38",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003868",
+    "parent": "SN20USBML1236691",
+    "timestamp": "2025-10-08 18:07:59",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003869",
+    "parent": "SN20USBML1236692",
+    "timestamp": "2025-10-08 18:08:13",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003870",
+    "parent": "SN20USBML1236693",
+    "timestamp": "2025-10-08 18:08:27",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004025",
+    "parent": "SN20USBML1236694",
+    "timestamp": "2025-11-05 14:31:51",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003871",
+    "parent": "SN20USBML1236695",
+    "timestamp": "2025-10-08 18:08:51",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003872",
+    "parent": "SN20USBML1236696",
+    "timestamp": "2025-10-08 18:09:31",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003875",
+    "parent": "SN20USBML1236697",
+    "timestamp": "2025-10-08 18:10:22",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003873",
+    "parent": "SN20USBML1236698",
+    "timestamp": "2025-10-08 18:09:46",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003668",
+    "parent": "SN20USBML1236699",
+    "timestamp": "2025-09-12 12:53:10",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003667",
+    "parent": "SN20USBML1236700",
+    "timestamp": "2025-09-12 12:51:39",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003660",
+    "parent": "SN20USBML1236701",
+    "timestamp": "2025-09-12 12:45:53",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003661",
+    "parent": "SN20USBML1236705",
+    "timestamp": "2025-09-12 12:46:53",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003662",
+    "parent": "SN20USBML1236706",
+    "timestamp": "2025-09-12 12:47:16",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003663",
+    "parent": "SN20USBML1236707",
+    "timestamp": "2025-09-12 12:47:34",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003646",
+    "parent": "SN20USBML1236709",
+    "timestamp": "2025-09-12 11:41:03",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003649",
+    "parent": "SN20USBML1236710",
+    "timestamp": "2025-09-12 11:42:35",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003664",
+    "parent": "SN20USBML1236711",
+    "timestamp": "2025-09-12 12:47:52",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003665",
+    "parent": "SN20USBML1236712",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003860",
+    "parent": "SN20USBML1236713",
+    "timestamp": "2025-10-08 18:05:28",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003861",
+    "parent": "SN20USBML1236714",
+    "timestamp": "2025-10-08 18:05:53",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003862",
+    "parent": "SN20USBML1236715",
+    "timestamp": "2025-10-08 18:06:07",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003863",
+    "parent": "SN20USBML1236716",
+    "timestamp": "2025-10-08 18:06:23",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003859",
+    "parent": "SN20USBML1236717",
+    "timestamp": "2025-10-08 18:03:56",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003856",
+    "parent": "SN20USBML1236718",
+    "timestamp": "2025-10-08 18:02:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003857",
+    "parent": "SN20USBML1236719",
+    "timestamp": "2025-10-08 18:03:12",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003858",
+    "parent": "SN20USBML1236720",
+    "timestamp": "2025-10-08 18:03:37",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003990",
+    "parent": "SN20USBML1236721",
+    "timestamp": "2025-10-29 17:48:46",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003991",
+    "parent": "SN20USBML1236722",
+    "timestamp": "2025-10-29 17:49:48",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003992",
+    "parent": "SN20USBML1236723",
+    "timestamp": "2025-10-29 17:50:04",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003993",
+    "parent": "SN20USBML1236724",
+    "timestamp": "2025-10-29 17:50:21",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003996",
+    "parent": "SN20USBML1236725",
+    "timestamp": "2025-10-29 17:51:18",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004004",
+    "parent": "SN20USBML1236726",
+    "timestamp": "2025-10-30 15:51:10",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004005",
+    "parent": "SN20USBML1236727",
+    "timestamp": "2025-10-30 15:51:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003994",
+    "parent": "SN20USBML1236728",
+    "timestamp": "2025-10-29 17:50:38",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004006",
+    "parent": "SN20USBML1236729",
+    "timestamp": "2025-10-30 15:52:04",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004007",
+    "parent": "SN20USBML1236730",
+    "timestamp": "2025-10-30 15:52:34",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004008",
+    "parent": "SN20USBML1236731",
+    "timestamp": "2025-10-30 15:53:03",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004009",
+    "parent": "SN20USBML1236732",
+    "timestamp": "2025-10-30 15:53:30",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003995",
+    "parent": "SN20USBML1236733",
+    "timestamp": "2025-10-29 17:50:51",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004036",
+    "parent": "SN20USBML1236676",
+    "timestamp": "2025-11-05 14:38:04",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004037",
+    "parent": "SN20USBML1236734",
+    "timestamp": "2025-11-05 14:38:26",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004018",
+    "parent": "SN20USBML1237010",
+    "timestamp": "2025-11-05 14:27:11",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004019",
+    "parent": "SN20USBML1237011",
+    "timestamp": "2025-11-05 14:28:58",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004020",
+    "parent": "SN20USBML1237012",
+    "timestamp": "2025-11-05 14:29:27",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004021",
+    "parent": "SN20USBML1237013",
+    "timestamp": "2025-11-05 14:29:47",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004026",
+    "parent": "SN20USBML1237014",
+    "timestamp": "2025-11-05 14:33:10",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004027",
+    "parent": "SN20USBML1237015",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004028",
+    "parent": "SN20USBML1237016",
+    "timestamp": "2025-11-05 14:35:15",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004029",
+    "parent": "SN20USBML1237017",
+    "timestamp": "2025-11-05 14:35:36",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004159",
+    "parent": "SN20USBML1237018",
+    "timestamp": "2025-11-19 15:31:24",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004160",
+    "parent": "SN20USBML1237019",
+    "timestamp": "2025-11-19 15:33:46",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004161",
+    "parent": "SN20USBML1237020",
+    "timestamp": "2025-11-19 15:34:36",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004162",
+    "parent": "SN20USBML1237021",
+    "timestamp": "2025-11-19 15:35:08",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004163",
+    "parent": "SN20USBML1237022",
+    "timestamp": "2025-11-19 15:35:39",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004164",
+    "parent": "SN20USBML1237023",
+    "timestamp": "2025-11-19 15:36:10",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004165",
+    "parent": "SN20USBML1237024",
+    "timestamp": "2025-11-19 16:33:54",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004166",
+    "parent": "SN20USBML1237025",
+    "timestamp": "2025-11-19 16:34:22",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004167",
+    "parent": "SN20USBML1237026",
+    "timestamp": "2025-11-19 16:35:33",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004168",
+    "parent": "SN20USBML1237027",
+    "timestamp": "2025-11-19 16:36:25",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004169",
+    "parent": "SN20USBML1237028",
+    "timestamp": "2025-11-19 16:36:45",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004170",
+    "parent": "SN20USBML1237029",
+    "timestamp": "2025-11-19 16:37:09",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004171",
+    "parent": "SN20USBML1237080",
+    "timestamp": "2025-11-19 16:43:57",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004172",
+    "parent": "SN20USBML1237081",
+    "timestamp": "2025-11-19 16:44:27",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004173",
+    "parent": "SN20USBML1237082",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004174",
+    "parent": "SN20USBML1237083",
+    "timestamp": "2025-11-19 16:45:38",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003904",
+    "parent": "SN20USBML1237084",
+    "timestamp": "2025-10-13 17:45:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004022",
+    "parent": "SN20USBML1237085",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004023",
+    "parent": "SN20USBML1237086",
+    "timestamp": "2025-11-05 14:30:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004024",
+    "parent": "SN20USBML1237087",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003905",
+    "parent": "SN20USBML1237088",
+    "timestamp": "2025-10-13 17:46:51",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003906",
+    "parent": "SN20USBML1237089",
+    "timestamp": "2025-10-13 17:47:18",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003907",
+    "parent": "SN20USBML1237090",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003908",
+    "parent": "SN20USBML1237091",
+    "timestamp": "2025-10-13 17:48:06",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003235",
+    "parent": "SN20USBML1237092",
+    "timestamp": "2025-07-31 12:11:38",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003236",
+    "parent": "SN20USBML1237093",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003237",
+    "parent": "SN20USBML1237094",
+    "timestamp": "2025-07-31 12:12:44",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003239",
+    "parent": "SN20USBML1237095",
+    "timestamp": "2025-07-31 12:13:44",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003132",
+    "parent": "SN20USBML1237096",
+    "timestamp": "2025-07-21 16:27:49",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003133",
+    "parent": "SN20USBML1237097",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003241",
+    "parent": "SN20USBML1237098",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003245",
+    "parent": "SN20USBML1237099",
+    "timestamp": "2025-08-01 14:33:21",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003909",
+    "parent": "SN20USBML1237100",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002955",
+    "parent": "SN20USBML1237101",
+    "timestamp": "2025-07-01 16:47:08",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003670",
+    "parent": "SN20USBML1237102",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003648",
+    "parent": "SN20USBML1237103",
+    "timestamp": "2025-09-12 11:42:01",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2003864",
+    "parent": "SN20USBML1237104",
+    "timestamp": "2025-10-08 18:06:37",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2002573",
+    "parent": "SN20USBML1237105",
+    "timestamp": "2025-04-30 14:08:35",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004175",
+    "parent": "SN20USBML1237106",
+    "timestamp": "2025-11-19 16:46:04",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004501",
+    "parent": "SN20USBML1237107",
+    "timestamp": "2026-01-14 20:21:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004502",
+    "parent": "SN20USBML1237108",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004503",
+    "parent": "SN20USBML1237109",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004504",
+    "parent": "SN20USBML1237110",
+    "timestamp": "2026-01-14 20:23:48",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004505",
+    "parent": "SN20USBML1237111",
+    "timestamp": "2026-01-14 20:24:00",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004506",
+    "parent": "SN20USBML1237112",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004493",
+    "parent": "SN20USBML1237113",
+    "timestamp": "2026-01-13 19:23:48",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004494",
+    "parent": "SN20USBML1237114",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004507",
+    "parent": "SN20USBML1237115",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004508",
+    "parent": "SN20USBML1237116",
+    "timestamp": "2026-01-14 20:26:35",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004509",
+    "parent": "SN20USBML1237117",
+    "timestamp": "2026-01-14 20:26:45",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004510",
+    "parent": "SN20USBML1237118",
+    "timestamp": "2026-01-14 20:27:05",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004489",
+    "parent": "SN20USBML1237119",
+    "timestamp": "2026-01-13 19:20:10",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004490",
+    "parent": "SN20USBML1237120",
+    "timestamp": "2026-01-13 19:20:29",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004491",
+    "parent": "SN20USBML1237121",
+    "timestamp": "2026-01-13 19:22:39",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004492",
+    "parent": "SN20USBML1237122",
+    "timestamp": "2026-01-13 19:23:22",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004513",
+    "parent": "SN20USBML1237123",
+    "timestamp": "2026-01-14 20:27:44",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004514",
+    "parent": "SN20USBML1237124",
+    "timestamp": "2026-01-14 20:27:55",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004515",
+    "parent": "SN20USBML1237125",
+    "timestamp": "2026-01-14 20:28:06",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004516",
+    "parent": "SN20USBML1237437",
+    "timestamp": "2026-01-14 20:28:19",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004481",
+    "parent": "SN20USBML1237438",
+    "timestamp": "2026-01-13 19:08:48",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004511",
+    "parent": "SN20USBML1237439",
+    "timestamp": "2026-01-14 20:27:16",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004512",
+    "parent": "SN20USBML1237440",
+    "timestamp": "2026-01-14 20:27:28",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004517",
+    "parent": "SN20USBML1237441",
+    "timestamp": "2026-01-14 20:28:32",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004519",
+    "parent": "SN20USBML1237442",
+    "timestamp": "2026-01-14 20:28:56",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004520",
+    "parent": "SN20USBML1237443",
+    "timestamp": "2026-01-14 20:29:07",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004523",
+    "parent": "SN20USBML1237444",
+    "timestamp": "2026-01-14 20:29:40",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004522",
+    "parent": "SN20USBML1237445",
+    "timestamp": "2026-01-14 20:29:29",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004518",
+    "parent": "SN20USBML1237446",
+    "timestamp": "2026-01-14 20:28:44",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004524",
+    "parent": "SN20USBML1237447",
+    "timestamp": "2026-01-14 20:30:29",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004858",
+    "parent": "SN20USBML1237448",
+    "timestamp": "2026-02-04 21:38:53",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004859",
+    "parent": "SN20USBML1237449",
+    "timestamp": "2026-02-04 21:39:14",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004860",
+    "parent": "SN20USBML1237450",
+    "timestamp": "2026-02-04 21:39:40",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004861",
+    "parent": "SN20USBML1237451",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004852",
+    "parent": "SN20USBML1237452",
+    "timestamp": "2026-02-04 21:29:02",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004853",
+    "parent": "SN20USBML1237453",
+    "timestamp": "2026-02-04 21:32:21",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004854",
+    "parent": "SN20USBML1237454",
+    "timestamp": "2026-02-04 21:32:39",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004855",
+    "parent": "SN20USBML1237455",
+    "timestamp": "2026-02-04 21:33:03",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004856",
+    "parent": "SN20USBML1237456",
+    "timestamp": "2026-02-04 21:33:18",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004857",
+    "parent": "SN20USBML1237457",
+    "timestamp": "2026-02-04 21:33:34",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004862",
+    "parent": "SN20USBML1237458",
+    "timestamp": "2026-02-04 21:40:07",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004863",
+    "parent": "SN20USBML1237459",
+    "timestamp": "2026-02-04 21:40:21",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004483",
+    "parent": "SN20USBML1237460",
+    "timestamp": "2026-01-13 19:11:01",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004484",
+    "parent": "SN20USBML1237461",
+    "timestamp": "2026-01-13 19:16:10",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004485",
+    "parent": "SN20USBML1237462",
+    "timestamp": "2026-01-13 19:16:41",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004867",
+    "parent": "SN20USBML1237463",
+    "timestamp": "2026-02-04 21:44:20",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004480",
+    "parent": "SN20USBML1237464",
+    "timestamp": "2026-01-13 19:08:26",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004482",
+    "parent": "SN20USBML1237465",
+    "timestamp": "2026-01-13 19:09:13",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004487",
+    "parent": "SN20USBML1237467",
+    "timestamp": "2026-01-13 19:17:28",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004870",
+    "parent": "SN20USBML1237468",
+    "timestamp": "2026-02-04 21:44:57",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004486",
+    "parent": "SN20USBML1237469",
+    "timestamp": "2026-01-13 19:17:00",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004864",
+    "parent": "SN20USBML1237470",
+    "timestamp": "2026-02-04 21:41:48",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004865",
+    "parent": "SN20USBML1237471",
+    "timestamp": "2026-02-04 21:43:50",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004866",
+    "parent": "SN20USBML1237472",
+    "timestamp": "2026-02-04 21:44:07",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004868",
+    "parent": "SN20USBML1237473",
+    "timestamp": "2026-02-04 21:44:34",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004869",
+    "parent": "SN20USBML1237474",
+    "timestamp": "2026-02-04 21:44:45",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004825",
+    "parent": "SN20USBML1237475",
+    "timestamp": "2026-02-04 18:18:46",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004826",
+    "parent": "SN20USBML1237860",
+    "timestamp": "2026-02-04 18:18:59",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004827",
+    "parent": "SN20USBML1237861",
+    "timestamp": "2026-02-04 18:19:14",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004828",
+    "parent": "SN20USBML1237862",
+    "timestamp": "2026-02-04 18:19:27",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004829",
+    "parent": "SN20USBML1237863",
+    "timestamp": "2026-02-04 18:19:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005137",
+    "parent": "SN20USBML1237864",
+    "timestamp": "2026-03-10 13:39:06",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005145",
+    "parent": "SN20USBML1237865",
+    "timestamp": "2026-03-11 14:08:07",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005146",
+    "parent": "SN20USBML1237866",
+    "timestamp": "2026-03-11 14:08:54",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005148",
+    "parent": "SN20USBML1237867",
+    "timestamp": "2026-03-11 14:09:19",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005147",
+    "parent": "SN20USBML1237868",
+    "timestamp": "2026-03-11 14:09:06",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005184",
+    "parent": "SN20USBML1237869",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005185",
+    "parent": "SN20USBML1237870",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005186",
+    "parent": "SN20USBML1237871",
+    "timestamp": "2026-03-12 15:34:33",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005187",
+    "parent": "SN20USBML1237872",
+    "timestamp": "2026-03-12 15:34:46",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005149",
+    "parent": "SN20USBML1237873",
+    "timestamp": "2026-03-11 14:09:32",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005188",
+    "parent": "SN20USBML1237874",
+    "timestamp": "2026-03-12 15:34:56",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005189",
+    "parent": "SN20USBML1237875",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005190",
+    "parent": "SN20USBML1237876",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005138",
+    "parent": "SN20USBML1237877",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005139",
+    "parent": "SN20USBML1237878",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005140",
+    "parent": "SN20USBML1237879",
+    "timestamp": "2026-03-10 16:57:03",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005141",
+    "parent": "SN20USBML1237880",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005161",
+    "parent": "SN20USBML1237881",
+    "timestamp": "2026-03-11 17:15:36",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005162",
+    "parent": "SN20USBML1237882",
+    "timestamp": "2026-03-11 17:15:50",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005163",
+    "parent": "SN20USBML1237883",
+    "timestamp": "2026-03-11 17:16:06",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005164",
+    "parent": "SN20USBML1237884",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005132",
+    "parent": "SN20USBML1237885",
+    "timestamp": "2026-03-10 13:37:31",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005133",
+    "parent": "SN20USBML1237886",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005134",
+    "parent": "SN20USBML1237887",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005135",
+    "parent": "SN20USBML1237888",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005142",
+    "parent": "SN20USBML1237889",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005143",
+    "parent": "SN20USBML1237890",
+    "timestamp": "2026-03-10 16:57:42",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005144",
+    "parent": "SN20USBML1237891",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005136",
+    "parent": "SN20USBML1237892",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005125",
+    "parent": "SN20USBML1237893",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005126",
+    "parent": "SN20USBML1237894",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005127",
+    "parent": "SN20USBML1237895",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005128",
+    "parent": "SN20USBML1237896",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005129",
+    "parent": "SN20USBML1237897",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005130",
+    "parent": "SN20USBML1237898",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005131",
+    "parent": "SN20USBML1237899",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005150",
+    "parent": "SN20USBML1237900",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005158",
+    "parent": "SN20USBML1238074",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005159",
+    "parent": "SN20USBML1238075",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005160",
+    "parent": "SN20USBML1238076",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005151",
+    "parent": "SN20USBML1238077",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005177",
+    "parent": "SN20USBML1238078",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005178",
+    "parent": "SN20USBML1238079",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005179",
+    "parent": "SN20USBML1238080",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005180",
+    "parent": "SN20USBML1238081",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005181",
+    "parent": "SN20USBML1238082",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005182",
+    "parent": "SN20USBML1238083",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005183",
+    "parent": "SN20USBML1238084",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2004488",
+    "parent": "SN20USBML1238085",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005191",
+    "parent": "SN20USBML1238086",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005192",
+    "parent": "SN20USBML1238087",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005193",
+    "parent": "SN20USBML1238088",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005194",
+    "parent": "SN20USBML1238498",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005206",
+    "parent": "SN20USBML1238499",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005207",
+    "parent": "SN20USBML1238500",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005208",
+    "parent": "SN20USBML1238501",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005209",
+    "parent": "SN20USBML1238502",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005212",
+    "parent": "SN20USBML1238503",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005213",
+    "parent": "SN20USBML1238504",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005214",
+    "parent": "SN20USBML1238505",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005215",
+    "parent": "SN20USBML1238506",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005201",
+    "parent": "SN20USBML1238507",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005202",
+    "parent": "SN20USBML1238508",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005203",
+    "parent": "SN20USBML1238509",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005204",
+    "parent": "SN20USBML1238510",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005197",
+    "parent": "SN20USBML1238511",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005198",
+    "parent": "SN20USBML1238512",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005199",
+    "parent": "SN20USBML1238513",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005200",
+    "parent": "SN20USBML1238514",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005195",
+    "parent": "SN20USBML1238515",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005196",
+    "parent": "SN20USBML1238516",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005210",
+    "parent": "SN20USBML1238517",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005211",
+    "parent": "SN20USBML1238518",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005216",
+    "parent": "SN20USBML1238519",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005217",
+    "parent": "SN20USBML1238520",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005218",
+    "parent": "SN20USBML1238521",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005406",
+    "parent": "SN20USBML1238522",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005411",
+    "parent": "SN20USBML1238527",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005412",
+    "parent": "SN20USBML1238528",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005413",
+    "parent": "SN20USBML1238529",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005444",
+    "parent": "SN20USBML1238679",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005445",
+    "parent": "SN20USBML1238680",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005446",
+    "parent": "SN20USBML1238681",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005447",
+    "parent": "SN20USBML1238682",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005448",
+    "parent": "SN20USBML1238683",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005476",
+    "parent": "SN20USBML1238684",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005477",
+    "parent": "SN20USBML1238685",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005478",
+    "parent": "SN20USBML1238686",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005475",
+    "parent": "SN20USBML1238687",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005473",
+    "parent": "SN20USBML1238688",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005474",
+    "parent": "SN20USBML1238689",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005449",
+    "parent": "SN20USBML1238690",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "SN20USBHX2005458",
+    "parent": "SN20USBML1238691",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1235090",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1236164",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1236173",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1236702",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1236703",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1236704",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1236708",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1237466",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238073",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238523",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238524",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238525",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238526",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238530",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238692",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238693",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238694",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238695",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238696",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238697",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238698",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238699",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238700",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238701",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238702",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238703",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238704",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238705",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238706",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238707",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238708",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238709",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238710",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1238711",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239198",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239199",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239200",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239201",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239202",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239203",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239204",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239205",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239206",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239207",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239208",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239209",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239210",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239211",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239212",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239213",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239214",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239215",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239216",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239217",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239218",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239219",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239220",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "BNL",
+    "serial": "",
+    "parent": "SN20USBML1239221",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003825",
+    "parent": "SN20USBML1236979",
+    "timestamp": "2025-09-26 22:37:35",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003823",
+    "parent": "SN20USBML1236980",
+    "timestamp": "2025-09-26 22:37:26",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003826",
+    "parent": "SN20USBML1236981",
+    "timestamp": "2025-09-26 22:37:40",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003810",
+    "parent": "SN20USBML1236982",
+    "timestamp": "2025-09-26 15:02:17",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003811",
+    "parent": "SN20USBML1236983",
+    "timestamp": "2025-09-26 15:02:22",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003812",
+    "parent": "SN20USBML1236984",
+    "timestamp": "2025-09-26 15:02:27",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003813",
+    "parent": "SN20USBML1236985",
+    "timestamp": "2025-09-26 15:02:32",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003814",
+    "parent": "SN20USBML1236986",
+    "timestamp": "2025-09-26 15:02:36",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003815",
+    "parent": "SN20USBML1236987",
+    "timestamp": "2025-09-26 15:02:40",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003817",
+    "parent": "SN20USBML1236988",
+    "timestamp": "2025-09-26 22:37:00",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003818",
+    "parent": "SN20USBML1236989",
+    "timestamp": "2025-09-26 22:37:05",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003819",
+    "parent": "SN20USBML1236990",
+    "timestamp": "2025-09-26 22:37:10",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003901",
+    "parent": "SN20USBML1237030",
+    "timestamp": "2025-10-13 16:27:12",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003902",
+    "parent": "SN20USBML1237031",
+    "timestamp": "2025-10-13 16:27:18",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003903",
+    "parent": "SN20USBML1237032",
+    "timestamp": "2025-10-13 16:27:22",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003898",
+    "parent": "SN20USBML1237033",
+    "timestamp": "2025-10-13 16:26:59",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003899",
+    "parent": "SN20USBML1237034",
+    "timestamp": "2025-10-13 16:27:03",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003900",
+    "parent": "SN20USBML1237035",
+    "timestamp": "2025-10-13 16:27:08",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003827",
+    "parent": "SN20USBML1237046",
+    "timestamp": "2025-09-26 22:37:44",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003820",
+    "parent": "SN20USBML1237047",
+    "timestamp": "2025-09-26 22:37:15",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003887",
+    "parent": "SN20USBML1237048",
+    "timestamp": "2025-10-13 16:26:15",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003888",
+    "parent": "SN20USBML1237049",
+    "timestamp": "2025-10-13 16:26:19",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003889",
+    "parent": "SN20USBML1237050",
+    "timestamp": "2025-10-13 16:26:22",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003890",
+    "parent": "SN20USBML1237051",
+    "timestamp": "2025-10-13 16:26:26",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003956",
+    "parent": "SN20USBML1237068",
+    "timestamp": "2025-10-24 22:45:44",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003955",
+    "parent": "SN20USBML1237069",
+    "timestamp": "2025-10-24 22:45:40",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003954",
+    "parent": "SN20USBML1237070",
+    "timestamp": "2025-10-24 22:45:35",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003953",
+    "parent": "SN20USBML1237071",
+    "timestamp": "2025-10-24 22:45:31",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003958",
+    "parent": "SN20USBML1237072",
+    "timestamp": "2025-10-24 22:45:53",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003957",
+    "parent": "SN20USBML1237073",
+    "timestamp": "2025-10-24 22:45:48",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003891",
+    "parent": "SN20USBML1237074",
+    "timestamp": "2025-10-13 16:26:30",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003975",
+    "parent": "SN20USBML1237075",
+    "timestamp": "2025-10-24 22:47:03",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003974",
+    "parent": "SN20USBML1237076",
+    "timestamp": "2025-10-24 22:46:59",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003973",
+    "parent": "SN20USBML1237077",
+    "timestamp": "2025-10-24 22:46:54",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003972",
+    "parent": "SN20USBML1237078",
+    "timestamp": "2025-10-24 22:46:50",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003971",
+    "parent": "SN20USBML1237079",
+    "timestamp": "2025-10-24 22:46:46",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003910",
+    "parent": "SN20USBML1237134",
+    "timestamp": "2025-10-13 18:04:17",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003911",
+    "parent": "SN20USBML1237135",
+    "timestamp": "2025-10-13 18:04:23",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003969",
+    "parent": "SN20USBML1237136",
+    "timestamp": "2025-10-24 22:46:38",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003970",
+    "parent": "SN20USBML1237137",
+    "timestamp": "2025-10-24 22:46:42",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003966",
+    "parent": "SN20USBML1237138",
+    "timestamp": "2025-10-24 22:46:26",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003968",
+    "parent": "SN20USBML1237139",
+    "timestamp": "2025-10-24 22:46:34",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003965",
+    "parent": "SN20USBML1237155",
+    "timestamp": "2025-10-24 22:46:22",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003960",
+    "parent": "SN20USBML1237156",
+    "timestamp": "2025-10-24 22:46:01",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003961",
+    "parent": "SN20USBML1237157",
+    "timestamp": "2025-10-24 22:46:05",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003962",
+    "parent": "SN20USBML1237158",
+    "timestamp": "2025-10-24 22:46:10",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003963",
+    "parent": "SN20USBML1237159",
+    "timestamp": "2025-10-24 22:46:14",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003964",
+    "parent": "SN20USBML1237160",
+    "timestamp": "2025-10-24 22:46:18",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003952",
+    "parent": "SN20USBML1237191",
+    "timestamp": "2025-10-24 22:45:27",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003951",
+    "parent": "SN20USBML1237192",
+    "timestamp": "2025-10-24 22:45:23",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003949",
+    "parent": "SN20USBML1237193",
+    "timestamp": "2025-10-24 22:45:13",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003948",
+    "parent": "SN20USBML1237194",
+    "timestamp": "2025-10-24 22:45:09",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003947",
+    "parent": "SN20USBML1237195",
+    "timestamp": "2025-10-24 22:45:03",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003929",
+    "parent": "SN20USBML1237196",
+    "timestamp": "2025-10-15 17:33:31",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003892",
+    "parent": "SN20USBML1237197",
+    "timestamp": "2025-10-13 16:26:34",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003897",
+    "parent": "SN20USBML1237198",
+    "timestamp": "2025-10-13 16:26:55",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003930",
+    "parent": "SN20USBML1237199",
+    "timestamp": "2025-10-15 17:33:37",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003931",
+    "parent": "SN20USBML1237200",
+    "timestamp": "2025-10-15 17:33:43",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003932",
+    "parent": "SN20USBML1237201",
+    "timestamp": "2025-10-15 17:33:47",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003933",
+    "parent": "SN20USBML1237202",
+    "timestamp": "2025-10-15 17:33:52",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003882",
+    "parent": "SN20USBML1237228",
+    "timestamp": "2025-10-13 16:25:50",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003883",
+    "parent": "SN20USBML1237229",
+    "timestamp": "2025-10-13 16:25:57",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003884",
+    "parent": "SN20USBML1237230",
+    "timestamp": "2025-10-13 16:26:03",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003885",
+    "parent": "SN20USBML1237231",
+    "timestamp": "2025-10-13 16:26:07",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003886",
+    "parent": "SN20USBML1237232",
+    "timestamp": "2025-10-13 16:26:11",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003828",
+    "parent": "SN20USBML1237233",
+    "timestamp": "2025-09-26 22:37:48",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003893",
+    "parent": "SN20USBML1237234",
+    "timestamp": "2025-10-13 16:26:38",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003894",
+    "parent": "SN20USBML1237235",
+    "timestamp": "2025-10-13 16:26:42",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003895",
+    "parent": "SN20USBML1237236",
+    "timestamp": "2025-10-13 16:26:47",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003896",
+    "parent": "SN20USBML1237237",
+    "timestamp": "2025-10-13 16:26:51",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003998",
+    "parent": "SN20USBML1237238",
+    "timestamp": "2025-10-29 21:32:31",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004003",
+    "parent": "SN20USBML1237239",
+    "timestamp": "2025-10-29 21:32:53",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004048",
+    "parent": "SN20USBML1237388",
+    "timestamp": "2025-11-05 16:50:03",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004055",
+    "parent": "SN20USBML1237389",
+    "timestamp": "2025-11-05 16:50:32",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004054",
+    "parent": "SN20USBML1237390",
+    "timestamp": "2025-11-05 16:50:28",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2003816",
+    "parent": "SN20USBML1237391",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004002",
+    "parent": "SN20USBML1237392",
+    "timestamp": "2025-10-29 21:32:49",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004001",
+    "parent": "SN20USBML1237393",
+    "timestamp": "2025-10-29 21:32:45",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004264",
+    "parent": "SN20USBML1237394",
+    "timestamp": "2025-12-03 01:26:59",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004265",
+    "parent": "SN20USBML1237395",
+    "timestamp": "2025-12-03 01:27:05",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004266",
+    "parent": "SN20USBML1237396",
+    "timestamp": "2025-12-03 01:27:11",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004267",
+    "parent": "SN20USBML1237397",
+    "timestamp": "2025-12-03 01:27:15",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004268",
+    "parent": "SN20USBML1237398",
+    "timestamp": "2025-12-03 01:27:20",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004269",
+    "parent": "SN20USBML1237399",
+    "timestamp": "2025-12-03 01:27:24",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004050",
+    "parent": "SN20USBML1237567",
+    "timestamp": "2025-11-05 16:50:12",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004051",
+    "parent": "SN20USBML1237568",
+    "timestamp": "2025-11-05 16:50:16",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004044",
+    "parent": "SN20USBML1237569",
+    "timestamp": "2025-11-05 16:49:45",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004045",
+    "parent": "SN20USBML1237570",
+    "timestamp": "2025-11-05 16:49:49",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004046",
+    "parent": "SN20USBML1237571",
+    "timestamp": "2025-11-05 16:49:53",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004047",
+    "parent": "SN20USBML1237572",
+    "timestamp": "2025-11-05 16:49:58",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004043",
+    "parent": "SN20USBML1237573",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004042",
+    "parent": "SN20USBML1237574",
+    "timestamp": "2025-11-05 16:49:36",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004041",
+    "parent": "SN20USBML1237575",
+    "timestamp": "2025-11-05 16:49:32",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004040",
+    "parent": "SN20USBML1237576",
+    "timestamp": "2025-11-05 16:49:25",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004039",
+    "parent": "SN20USBML1237577",
+    "timestamp": "2025-11-05 16:49:13",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004038",
+    "parent": "SN20USBML1237578",
+    "timestamp": "2025-11-05 16:24:26",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004276",
+    "parent": "SN20USBML1237579",
+    "timestamp": "2025-12-03 01:27:54",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004274",
+    "parent": "SN20USBML1237580",
+    "timestamp": "2025-12-03 01:27:44",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004273",
+    "parent": "SN20USBML1237581",
+    "timestamp": "2025-12-03 01:27:40",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004275",
+    "parent": "SN20USBML1237582",
+    "timestamp": "2025-12-03 01:27:49",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004271",
+    "parent": "SN20USBML1237583",
+    "timestamp": "2025-12-03 01:27:32",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004272",
+    "parent": "SN20USBML1237584",
+    "timestamp": "2025-12-03 01:27:36",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004052",
+    "parent": "SN20USBML1237587",
+    "timestamp": "2025-11-05 16:50:20",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004277",
+    "parent": "SN20USBML1237588",
+    "timestamp": "2025-12-03 01:27:58",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004278",
+    "parent": "SN20USBML1237589",
+    "timestamp": "2025-12-03 01:28:02",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004053",
+    "parent": "SN20USBML1237590",
+    "timestamp": "2025-11-05 16:50:24",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004000",
+    "parent": "SN20USBML1237591",
+    "timestamp": "2025-10-29 21:32:41",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004049",
+    "parent": "SN20USBML1237592",
+    "timestamp": "2025-11-05 16:50:08",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004279",
+    "parent": "SN20USBML1237593",
+    "timestamp": "2025-12-03 01:28:06",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004280",
+    "parent": "SN20USBML1237594",
+    "timestamp": "2025-12-03 01:28:10",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004281",
+    "parent": "SN20USBML1237595",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004282",
+    "parent": "SN20USBML1237596",
+    "timestamp": "2025-12-03 01:28:19",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004328",
+    "parent": "SN20USBML1237597",
+    "timestamp": "2025-12-08 15:33:25",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004327",
+    "parent": "SN20USBML1237598",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004429",
+    "parent": "SN20USBML1237599",
+    "timestamp": "2025-12-20 00:15:24",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004428",
+    "parent": "SN20USBML1237600",
+    "timestamp": "2025-12-20 00:15:21",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004427",
+    "parent": "SN20USBML1237601",
+    "timestamp": "2025-12-20 00:15:18",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004425",
+    "parent": "SN20USBML1237602",
+    "timestamp": "2025-12-20 00:15:12",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004426",
+    "parent": "SN20USBML1237603",
+    "timestamp": "2025-12-20 00:15:15",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004424",
+    "parent": "SN20USBML1237604",
+    "timestamp": "2025-12-20 00:15:09",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004422",
+    "parent": "SN20USBML1237605",
+    "timestamp": "2025-12-20 00:15:02",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004423",
+    "parent": "SN20USBML1237606",
+    "timestamp": "2025-12-20 00:15:06",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004418",
+    "parent": "SN20USBML1237607",
+    "timestamp": "2025-12-20 00:14:46",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004419",
+    "parent": "SN20USBML1237608",
+    "timestamp": "2025-12-20 00:14:50",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004420",
+    "parent": "SN20USBML1237609",
+    "timestamp": "2025-12-20 00:14:54",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004421",
+    "parent": "SN20USBML1237610",
+    "timestamp": "2025-12-20 00:14:58",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004603",
+    "parent": "SN20USBML1237626",
+    "timestamp": "2026-01-20 18:43:49",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004604",
+    "parent": "SN20USBML1237627",
+    "timestamp": "2026-01-20 18:43:53",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004605",
+    "parent": "SN20USBML1237628",
+    "timestamp": "2026-01-20 18:43:57",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004600",
+    "parent": "SN20USBML1237654",
+    "timestamp": "2026-01-20 18:43:35",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004601",
+    "parent": "SN20USBML1237655",
+    "timestamp": "2026-01-20 18:43:41",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004602",
+    "parent": "SN20USBML1237656",
+    "timestamp": "2026-01-20 18:43:45",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004606",
+    "parent": "SN20USBML1237715",
+    "timestamp": "2026-01-20 18:44:01",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004607",
+    "parent": "SN20USBML1237716",
+    "timestamp": "2026-01-20 18:44:05",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004608",
+    "parent": "SN20USBML1237717",
+    "timestamp": "2026-01-20 18:44:09",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004609",
+    "parent": "SN20USBML1237718",
+    "timestamp": "2026-01-20 18:44:13",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004610",
+    "parent": "SN20USBML1237719",
+    "timestamp": "2026-01-20 18:44:18",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004611",
+    "parent": "SN20USBML1237720",
+    "timestamp": "2026-01-20 18:44:22",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004612",
+    "parent": "SN20USBML1237773",
+    "timestamp": "2026-01-20 18:44:27",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004613",
+    "parent": "SN20USBML1237774",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004614",
+    "parent": "SN20USBML1237775",
+    "timestamp": "2026-01-20 18:44:35",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004615",
+    "parent": "SN20USBML1237776",
+    "timestamp": "2026-01-20 18:44:38",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004616",
+    "parent": "SN20USBML1237777",
+    "timestamp": "2026-01-20 18:44:42",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004617",
+    "parent": "SN20USBML1237778",
+    "timestamp": "2026-01-20 18:44:46",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004412",
+    "parent": "SN20USBML1237791",
+    "timestamp": "2025-12-20 00:14:20",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004413",
+    "parent": "SN20USBML1237792",
+    "timestamp": "2025-12-20 00:14:28",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004414",
+    "parent": "SN20USBML1237793",
+    "timestamp": "2025-12-20 00:14:32",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004415",
+    "parent": "SN20USBML1237794",
+    "timestamp": "2025-12-20 00:14:35",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004416",
+    "parent": "SN20USBML1237795",
+    "timestamp": "2025-12-20 00:14:39",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004417",
+    "parent": "SN20USBML1237796",
+    "timestamp": "2025-12-20 00:14:42",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004618",
+    "parent": "SN20USBML1237797",
+    "timestamp": "2026-01-20 18:44:51",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004619",
+    "parent": "SN20USBML1237798",
+    "timestamp": "2026-01-20 18:44:55",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004620",
+    "parent": "SN20USBML1237799",
+    "timestamp": "2026-01-20 18:44:58",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004621",
+    "parent": "SN20USBML1237800",
+    "timestamp": "2026-01-20 18:45:02",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004622",
+    "parent": "SN20USBML1237801",
+    "timestamp": "2026-01-20 18:45:07",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004623",
+    "parent": "SN20USBML1237802",
+    "timestamp": "2026-01-20 18:45:11",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004624",
+    "parent": "SN20USBML1237829",
+    "timestamp": "2026-01-20 18:45:15",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004625",
+    "parent": "SN20USBML1237830",
+    "timestamp": "2026-01-20 18:45:19",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004626",
+    "parent": "SN20USBML1237831",
+    "timestamp": "2026-01-20 18:45:23",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004627",
+    "parent": "SN20USBML1237832",
+    "timestamp": "2026-01-20 18:45:27",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004628",
+    "parent": "SN20USBML1237833",
+    "timestamp": "2026-01-20 18:45:32",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004629",
+    "parent": "SN20USBML1237834",
+    "timestamp": "2026-01-20 18:45:36",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004323",
+    "parent": "SN20USBML1237854",
+    "timestamp": "2025-12-08 15:33:00",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004325",
+    "parent": "SN20USBML1237855",
+    "timestamp": "2025-12-08 15:33:12",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004283",
+    "parent": "SN20USBML1237856",
+    "timestamp": "2025-12-03 01:28:23",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004324",
+    "parent": "SN20USBML1237857",
+    "timestamp": "2025-12-08 15:33:07",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004326",
+    "parent": "SN20USBML1237858",
+    "timestamp": "2025-12-08 15:33:17",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004635",
+    "parent": "SN20USBML1237859",
+    "timestamp": "2026-01-20 18:46:01",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004801",
+    "parent": "SN20USBML1237925",
+    "timestamp": "2026-02-03 01:20:51",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004802",
+    "parent": "SN20USBML1237926",
+    "timestamp": "2026-02-03 01:20:56",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004803",
+    "parent": "SN20USBML1237927",
+    "timestamp": "2026-02-03 01:21:00",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004804",
+    "parent": "SN20USBML1237928",
+    "timestamp": "2026-02-03 01:21:06",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004805",
+    "parent": "SN20USBML1237980",
+    "timestamp": "2026-02-03 01:21:09",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004800",
+    "parent": "SN20USBML1238004",
+    "timestamp": "2026-02-03 01:20:46",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004632",
+    "parent": "SN20USBML1238005",
+    "timestamp": "2026-01-20 18:45:48",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004634",
+    "parent": "SN20USBML1238006",
+    "timestamp": "2026-01-20 18:45:57",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004633",
+    "parent": "SN20USBML1238007",
+    "timestamp": "2026-01-20 18:45:52",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004631",
+    "parent": "SN20USBML1238008",
+    "timestamp": "2026-01-20 18:45:44",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004794",
+    "parent": "SN20USBML1238009",
+    "timestamp": "2026-01-30 22:40:41",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004630",
+    "parent": "SN20USBML1238010",
+    "timestamp": "2026-01-20 18:45:40",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004795",
+    "parent": "SN20USBML1238011",
+    "timestamp": "2026-01-30 22:40:45",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004798",
+    "parent": "SN20USBML1238012",
+    "timestamp": "2026-01-30 22:40:57",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004976",
+    "parent": "SN20USBML1238069",
+    "timestamp": "2026-02-18 17:49:40",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004977",
+    "parent": "SN20USBML1238070",
+    "timestamp": "2026-02-18 17:49:44",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004978",
+    "parent": "SN20USBML1238071",
+    "timestamp": "2026-02-18 17:49:48",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004980",
+    "parent": "SN20USBML1238072",
+    "timestamp": "2026-02-18 17:49:56",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005333",
+    "parent": "SN20USBML1238089",
+    "timestamp": "2026-03-19 20:21:50",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004979",
+    "parent": "SN20USBML1238090",
+    "timestamp": "2026-02-18 17:49:52",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004975",
+    "parent": "SN20USBML1238091",
+    "timestamp": "2026-02-18 17:49:36",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004793",
+    "parent": "SN20USBML1238135",
+    "timestamp": "2026-01-30 22:40:37",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004792",
+    "parent": "SN20USBML1238136",
+    "timestamp": "2026-01-30 22:40:33",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004920",
+    "parent": "SN20USBML1238137",
+    "timestamp": "2026-02-09 23:46:44",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004791",
+    "parent": "SN20USBML1238138",
+    "timestamp": "2026-01-30 22:40:29",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004790",
+    "parent": "SN20USBML1238139",
+    "timestamp": "2026-01-30 22:40:24",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004789",
+    "parent": "SN20USBML1238140",
+    "timestamp": "2026-01-30 22:40:20",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004788",
+    "parent": "SN20USBML1238141",
+    "timestamp": "2026-01-30 22:40:12",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005310",
+    "parent": "SN20USBML1238142",
+    "timestamp": "2026-03-18 16:59:08",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004921",
+    "parent": "SN20USBML1238167",
+    "timestamp": "2026-02-09 23:46:49",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004922",
+    "parent": "SN20USBML1238168",
+    "timestamp": "2026-02-09 23:46:55",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004923",
+    "parent": "SN20USBML1238169",
+    "timestamp": "2026-02-09 23:46:59",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004924",
+    "parent": "SN20USBML1238170",
+    "timestamp": "2026-02-09 23:47:04",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004925",
+    "parent": "SN20USBML1238171",
+    "timestamp": "2026-02-09 23:47:08",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004970",
+    "parent": "SN20USBML1238208",
+    "timestamp": "2026-02-18 17:49:17",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004971",
+    "parent": "SN20USBML1238209",
+    "timestamp": "2026-02-18 17:49:21",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004972",
+    "parent": "SN20USBML1238210",
+    "timestamp": "2026-02-18 17:49:25",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004973",
+    "parent": "SN20USBML1238211",
+    "timestamp": "2026-02-18 17:49:28",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004799",
+    "parent": "SN20USBML1238212",
+    "timestamp": "2026-01-30 22:41:00",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005268",
+    "parent": "SN20USBML1238213",
+    "timestamp": "2026-03-16 18:23:54",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2004969",
+    "parent": "SN20USBML1238214",
+    "timestamp": "2026-02-18 17:49:13",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005269",
+    "parent": "SN20USBML1238215",
+    "timestamp": "2026-03-16 18:23:59",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005270",
+    "parent": "SN20USBML1238216",
+    "timestamp": "2026-03-16 18:24:04",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005271",
+    "parent": "SN20USBML1238217",
+    "timestamp": "2026-03-16 18:24:07",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005272",
+    "parent": "SN20USBML1238218",
+    "timestamp": "2026-03-16 18:24:11",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005103",
+    "parent": "SN20USBML1238219",
+    "timestamp": "2026-03-02 21:57:41",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005277",
+    "parent": "SN20USBML1238348",
+    "timestamp": "2026-03-16 18:24:30",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005273",
+    "parent": "SN20USBML1238349",
+    "timestamp": "2026-03-16 18:24:15",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005274",
+    "parent": "SN20USBML1238350",
+    "timestamp": "2026-03-16 18:24:19",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005275",
+    "parent": "SN20USBML1238351",
+    "timestamp": "2026-03-16 18:24:22",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005278",
+    "parent": "SN20USBML1238352",
+    "timestamp": "2026-03-16 18:24:33",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005276",
+    "parent": "SN20USBML1238353",
+    "timestamp": "2026-03-16 18:24:26",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005311",
+    "parent": "SN20USBML1238355",
+    "timestamp": "2026-03-18 16:59:11",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005330",
+    "parent": "SN20USBML1238356",
+    "timestamp": "2026-03-19 20:21:36",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005332",
+    "parent": "SN20USBML1238357",
+    "timestamp": "2026-03-19 20:21:46",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005331",
+    "parent": "SN20USBML1238358",
+    "timestamp": "2026-03-19 20:21:41",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005387",
+    "parent": "SN20USBML1238402",
+    "timestamp": "2026-03-24 22:58:22",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005388",
+    "parent": "SN20USBML1238404",
+    "timestamp": "2026-03-24 22:58:25",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005389",
+    "parent": "SN20USBML1238405",
+    "timestamp": "2026-03-24 22:58:30",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005390",
+    "parent": "SN20USBML1238406",
+    "timestamp": "2026-03-24 22:58:33",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005391",
+    "parent": "SN20USBML1238407",
+    "timestamp": "2026-03-24 22:58:37",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005392",
+    "parent": "SN20USBML1238408",
+    "timestamp": "2026-03-24 22:58:41",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005379",
+    "parent": "SN20USBML1238455",
+    "timestamp": "2026-03-24 18:36:15",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005380",
+    "parent": "SN20USBML1238456",
+    "timestamp": "2026-03-24 18:36:19",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005334",
+    "parent": "SN20USBML1238457",
+    "timestamp": "2026-03-19 20:21:54",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005382",
+    "parent": "SN20USBML1238458",
+    "timestamp": "2026-03-24 18:36:26",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005383",
+    "parent": "SN20USBML1238459",
+    "timestamp": "2026-03-24 18:36:30",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005325",
+    "parent": "SN20USBML1238531",
+    "timestamp": "2026-03-19 17:34:14",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005326",
+    "parent": "SN20USBML1238590",
+    "timestamp": "2026-03-19 17:34:18",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005327",
+    "parent": "SN20USBML1238591",
+    "timestamp": "2026-03-19 17:34:23",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005328",
+    "parent": "SN20USBML1238592",
+    "timestamp": "2026-03-19 17:34:28",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005329",
+    "parent": "SN20USBML1238593",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005324",
+    "parent": "SN20USBML1238616",
+    "timestamp": "2026-03-19 17:34:08",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005378",
+    "parent": "SN20USBML1238617",
+    "timestamp": "2026-03-24 18:36:11",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005366",
+    "parent": "SN20USBML1238618",
+    "timestamp": "2026-03-24 18:34:21",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005375",
+    "parent": "SN20USBML1238619",
+    "timestamp": "2026-03-24 18:35:39",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005367",
+    "parent": "SN20USBML1238620",
+    "timestamp": "2026-03-24 18:34:45",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005373",
+    "parent": "SN20USBML1238769",
+    "timestamp": "2026-03-24 18:35:12",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005372",
+    "parent": "SN20USBML1238770",
+    "timestamp": "2026-03-24 18:35:07",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005588",
+    "parent": "SN20USBML1238772",
+    "timestamp": "2026-04-01 17:54:05",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005586",
+    "parent": "SN20USBML1238773",
+    "timestamp": "2026-04-01 17:53:57",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005932",
+    "parent": "SN20USBML1238776",
+    "timestamp": "2026-04-28 17:29:46",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005578",
+    "parent": "SN20USBML1238777",
+    "timestamp": "2026-04-01 17:53:24",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005934",
+    "parent": "SN20USBML1238778",
+    "timestamp": "2026-04-28 17:29:55",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005587",
+    "parent": "SN20USBML1238780",
+    "timestamp": "2026-04-01 17:54:01",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005582",
+    "parent": "SN20USBML1238781",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005303",
+    "parent": "SN20USBML1238782",
+    "timestamp": "2026-03-17 20:38:37",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005584",
+    "parent": "SN20USBML1238783",
+    "timestamp": "2026-04-01 17:53:49",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005931",
+    "parent": "SN20USBML1238785",
+    "timestamp": "2026-04-28 17:29:42",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005371",
+    "parent": "SN20USBML1238786",
+    "timestamp": "2026-03-24 18:35:03",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005570",
+    "parent": "SN20USBML1238787",
+    "timestamp": "2026-04-01 17:52:49",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005579",
+    "parent": "SN20USBML1238788",
+    "timestamp": "2026-04-01 17:53:28",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005585",
+    "parent": "SN20USBML1238789",
+    "timestamp": "2026-04-01 17:53:53",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005576",
+    "parent": "SN20USBML1238790",
+    "timestamp": "2026-04-01 17:53:16",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005301",
+    "parent": "SN20USBML1238793",
+    "timestamp": "2026-03-17 20:38:29",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005577",
+    "parent": "SN20USBML1238794",
+    "timestamp": "2026-04-01 17:53:20",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005935",
+    "parent": "SN20USBML1238795",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005583",
+    "parent": "SN20USBML1238796",
+    "timestamp": "2026-04-01 17:53:45",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005370",
+    "parent": "SN20USBML1238799",
+    "timestamp": "2026-03-24 18:34:59",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005710",
+    "parent": "SN20USBML1238800",
+    "timestamp": "2026-04-08 18:10:31",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005863",
+    "parent": "SN20USBML1238801",
+    "timestamp": "2026-04-20 21:04:54",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005864",
+    "parent": "SN20USBML1238802",
+    "timestamp": "2026-04-20 21:04:57",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005302",
+    "parent": "SN20USBML1238804",
+    "timestamp": "2026-03-17 20:38:33",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005933",
+    "parent": "SN20USBML1238805",
+    "timestamp": "2026-04-28 17:29:51",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005707",
+    "parent": "SN20USBML1238806",
+    "timestamp": "2026-04-08 18:10:18",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005305",
+    "parent": "SN20USBML1238809",
+    "timestamp": "2026-03-17 20:38:45",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005572",
+    "parent": "SN20USBML1238810",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005300",
+    "parent": "SN20USBML1238811",
+    "timestamp": "2026-03-17 20:38:23",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005568",
+    "parent": "SN20USBML1238813",
+    "timestamp": "2026-04-01 17:52:38",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005384",
+    "parent": "SN20USBML1238814",
+    "timestamp": "2026-03-24 22:58:06",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005571",
+    "parent": "SN20USBML1238817",
+    "timestamp": "2026-04-01 17:52:54",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005304",
+    "parent": "SN20USBML1238819",
+    "timestamp": "2026-03-17 20:38:41",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005708",
+    "parent": "SN20USBML1238822",
+    "timestamp": "2026-04-08 18:10:22",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005709",
+    "parent": "SN20USBML1238824",
+    "timestamp": "2026-04-08 18:10:27",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005393",
+    "parent": "SN20USBML1238825",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005862",
+    "parent": "SN20USBML1238826",
+    "timestamp": "2026-04-20 21:04:50",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005575",
+    "parent": "SN20USBML1238827",
+    "timestamp": "2026-04-01 17:53:11",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005574",
+    "parent": "SN20USBML1238828",
+    "timestamp": "2026-04-01 17:53:07",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005386",
+    "parent": "SN20USBML1238829",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005369",
+    "parent": "SN20USBML1238830",
+    "timestamp": "2026-03-24 18:34:55",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005581",
+    "parent": "SN20USBML1238831",
+    "timestamp": "2026-04-01 17:53:36",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005936",
+    "parent": "SN20USBML1238832",
+    "timestamp": "2026-04-28 17:30:03",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005580",
+    "parent": "SN20USBML1238833",
+    "timestamp": "2026-04-01 17:53:32",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005569",
+    "parent": "SN20USBML1238834",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005590",
+    "parent": "SN20USBML1238835",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005385",
+    "parent": "SN20USBML1238836",
+    "timestamp": "2026-03-24 22:58:12",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005573",
+    "parent": "SN20USBML1238837",
+    "timestamp": "2026-04-01 17:53:03",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005706",
+    "parent": "SN20USBML1238838",
+    "timestamp": "2026-04-08 18:10:14",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005376",
+    "parent": "SN20USBML1238842",
+    "timestamp": "2026-03-24 18:35:44",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005309",
+    "parent": "SN20USBML1238843",
+    "timestamp": "2026-03-18 16:59:04",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005374",
+    "parent": "SN20USBML1238844",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005306",
+    "parent": "SN20USBML1238845",
+    "timestamp": "2026-03-18 16:58:51",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005307",
+    "parent": "SN20USBML1238846",
+    "timestamp": "2026-03-18 16:58:55",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005308",
+    "parent": "SN20USBML1238847",
+    "timestamp": "2026-03-18 16:58:59",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005368",
+    "parent": "SN20USBML1238848",
+    "timestamp": "2026-03-24 18:34:51",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005335",
+    "parent": "SN20USBML1238849",
+    "timestamp": "2026-03-19 20:21:58",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "SN20USBHX2005377",
+    "parent": "SN20USBML1238850",
+    "timestamp": "2026-03-24 18:35:48",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238771",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238774",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238775",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238779",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238784",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238791",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238792",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238797",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238798",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238803",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238807",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238808",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238812",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238815",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238816",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238818",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238820",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238821",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238823",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238839",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238840",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238841",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1238851",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239099",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239100",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239101",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239102",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239103",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239104",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239105",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239106",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239107",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239108",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239109",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239110",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239111",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239112",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239113",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239114",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239115",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239116",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239117",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239118",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239119",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239120",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239121",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239122",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239178",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239179",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239180",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239181",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239182",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239183",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239184",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239185",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239186",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239187",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239188",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239189",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239190",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239191",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239192",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239193",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239194",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239195",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239196",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239197",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239261",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239262",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239263",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239264",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239265",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239266",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239267",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239268",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239269",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239270",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239271",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239272",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239273",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239274",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239275",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239276",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239277",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239278",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "LBNL",
+    "serial": "",
+    "parent": "SN20USBML1239279",
+    "timestamp": "",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003578",
+    "parent": "SN20USBML1236791",
+    "timestamp": "2025-09-10 21:21:08",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003580",
+    "parent": "SN20USBML1236792",
+    "timestamp": "2025-09-10 21:36:06",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003579",
+    "parent": "SN20USBML1236793",
+    "timestamp": "2025-09-10 21:25:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003581",
+    "parent": "SN20USBML1236794",
+    "timestamp": "2025-09-10 21:40:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003582",
+    "parent": "SN20USBML1236795",
+    "timestamp": "2025-09-10 21:47:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003583",
+    "parent": "SN20USBML1236796",
+    "timestamp": "2025-09-10 21:56:20",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003618",
+    "parent": "SN20USBML1236797",
+    "timestamp": "2025-09-11 22:15:20",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003619",
+    "parent": "SN20USBML1236798",
+    "timestamp": "2025-09-11 22:15:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003621",
+    "parent": "SN20USBML1236799",
+    "timestamp": "2025-09-11 22:24:01",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003616",
+    "parent": "SN20USBML1236800",
+    "timestamp": "2025-09-11 21:38:28",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003617",
+    "parent": "SN20USBML1236801",
+    "timestamp": "2025-09-11 21:39:02",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003753",
+    "parent": "SN20USBML1236802",
+    "timestamp": "2025-09-22 21:42:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003754",
+    "parent": "SN20USBML1236803",
+    "timestamp": "2025-09-22 21:43:11",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003755",
+    "parent": "SN20USBML1236804",
+    "timestamp": "2025-09-22 21:43:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003746",
+    "parent": "SN20USBML1236805",
+    "timestamp": "2025-09-22 20:56:34",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003747",
+    "parent": "SN20USBML1236806",
+    "timestamp": "2025-09-22 20:57:59",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003758",
+    "parent": "SN20USBML1236807",
+    "timestamp": "2025-09-22 22:30:47",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003759",
+    "parent": "SN20USBML1236808",
+    "timestamp": "2025-09-22 22:31:16",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003760",
+    "parent": "SN20USBML1236809",
+    "timestamp": "2025-09-22 22:31:38",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003761",
+    "parent": "SN20USBML1236810",
+    "timestamp": "2025-09-22 22:32:04",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003762",
+    "parent": "SN20USBML1236811",
+    "timestamp": "2025-09-22 22:47:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003620",
+    "parent": "SN20USBML1236892",
+    "timestamp": "2025-09-11 22:19:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003752",
+    "parent": "SN20USBML1236893",
+    "timestamp": "2025-09-22 21:42:31",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003448",
+    "parent": "SN20USBML1236956",
+    "timestamp": "2025-08-27 21:21:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003449",
+    "parent": "SN20USBML1236957",
+    "timestamp": "2025-08-27 21:21:58",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003450",
+    "parent": "SN20USBML1236958",
+    "timestamp": "2025-08-27 21:32:57",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003451",
+    "parent": "SN20USBML1236959",
+    "timestamp": "2025-08-27 21:36:46",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003452",
+    "parent": "SN20USBML1236960",
+    "timestamp": "2025-08-27 21:43:30",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003461",
+    "parent": "SN20USBML1236961",
+    "timestamp": "2025-08-27 22:47:45",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003764",
+    "parent": "SN20USBML1236962",
+    "timestamp": "2025-09-22 23:16:34",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003745",
+    "parent": "SN20USBML1236963",
+    "timestamp": "2025-09-22 20:55:21",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003766",
+    "parent": "SN20USBML1236964",
+    "timestamp": "2025-09-22 23:39:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003768",
+    "parent": "SN20USBML1236965",
+    "timestamp": "2025-09-22 23:40:30",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003776",
+    "parent": "SN20USBML1236966",
+    "timestamp": "2025-09-23 20:29:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003777",
+    "parent": "SN20USBML1236967",
+    "timestamp": "2025-09-23 20:29:46",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003474",
+    "parent": "SN20USBML1236968",
+    "timestamp": "2025-08-28 18:38:50",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003591",
+    "parent": "SN20USBML1236969",
+    "timestamp": "2025-09-10 22:55:58",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003781",
+    "parent": "SN20USBML1236970",
+    "timestamp": "2025-09-23 21:04:36",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003778",
+    "parent": "SN20USBML1236971",
+    "timestamp": "2025-09-23 20:32:56",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003779",
+    "parent": "SN20USBML1236972",
+    "timestamp": "2025-09-23 20:33:15",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003780",
+    "parent": "SN20USBML1236973",
+    "timestamp": "2025-09-23 20:33:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003788",
+    "parent": "SN20USBML1236974",
+    "timestamp": "2025-09-23 21:45:48",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003756",
+    "parent": "SN20USBML1236975",
+    "timestamp": "2025-09-22 21:43:59",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003757",
+    "parent": "SN20USBML1236976",
+    "timestamp": "2025-09-22 21:44:20",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003789",
+    "parent": "SN20USBML1236977",
+    "timestamp": "2025-09-23 21:46:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003790",
+    "parent": "SN20USBML1236978",
+    "timestamp": "2025-09-23 21:46:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003782",
+    "parent": "SN20USBML1237126",
+    "timestamp": "2025-09-23 21:07:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003783",
+    "parent": "SN20USBML1237127",
+    "timestamp": "2025-09-23 21:07:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003784",
+    "parent": "SN20USBML1237128",
+    "timestamp": "2025-09-23 21:08:48",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003765",
+    "parent": "SN20USBML1237129",
+    "timestamp": "2025-09-22 23:18:11",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003611",
+    "parent": "SN20USBML1237130",
+    "timestamp": "2025-09-11 20:31:03",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003612",
+    "parent": "SN20USBML1237131",
+    "timestamp": "2025-09-11 20:31:24",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003613",
+    "parent": "SN20USBML1237132",
+    "timestamp": "2025-09-11 20:32:12",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003614",
+    "parent": "SN20USBML1237133",
+    "timestamp": "2025-09-11 21:37:35",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003615",
+    "parent": "SN20USBML1237161",
+    "timestamp": "2025-09-11 21:38:10",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003610",
+    "parent": "SN20USBML1237162",
+    "timestamp": "2025-09-11 20:29:38",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003785",
+    "parent": "SN20USBML1237163",
+    "timestamp": "2025-09-23 21:14:48",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003786",
+    "parent": "SN20USBML1237164",
+    "timestamp": "2025-09-23 21:21:30",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003787",
+    "parent": "SN20USBML1237178",
+    "timestamp": "2025-09-23 21:21:55",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2003793",
+    "parent": "SN20USBML1237179",
+    "timestamp": "2025-09-23 21:55:01",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004230",
+    "parent": "SN20USBML1237180",
+    "timestamp": "2025-12-01 18:43:05",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004231",
+    "parent": "SN20USBML1237182",
+    "timestamp": "2025-12-01 18:51:57",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004232",
+    "parent": "SN20USBML1237183",
+    "timestamp": "2025-12-01 18:59:32",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004233",
+    "parent": "SN20USBML1237184",
+    "timestamp": "2025-12-01 19:15:03",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004234",
+    "parent": "SN20USBML1237185",
+    "timestamp": "2025-12-01 19:20:09",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004235",
+    "parent": "SN20USBML1237186",
+    "timestamp": "2025-12-01 19:36:37",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004258",
+    "parent": "SN20USBML1237187",
+    "timestamp": "2025-12-02 23:27:55",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004259",
+    "parent": "SN20USBML1237188",
+    "timestamp": "2025-12-03 00:00:55",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004260",
+    "parent": "SN20USBML1237189",
+    "timestamp": "2025-12-03 00:08:53",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004263",
+    "parent": "SN20USBML1237190",
+    "timestamp": "2025-12-03 00:42:01",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004237",
+    "parent": "SN20USBML1237476",
+    "timestamp": "2025-12-01 19:59:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004238",
+    "parent": "SN20USBML1237477",
+    "timestamp": "2025-12-01 20:08:28",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004239",
+    "parent": "SN20USBML1237478",
+    "timestamp": "2025-12-01 20:12:09",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004240",
+    "parent": "SN20USBML1237479",
+    "timestamp": "2025-12-01 22:07:33",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004241",
+    "parent": "SN20USBML1237480",
+    "timestamp": "2025-12-01 22:21:10",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004243",
+    "parent": "SN20USBML1237481",
+    "timestamp": "2025-12-01 22:35:35",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004244",
+    "parent": "SN20USBML1237482",
+    "timestamp": "2025-12-01 22:41:00",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004245",
+    "parent": "SN20USBML1237483",
+    "timestamp": "2025-12-01 22:47:47",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004549",
+    "parent": "SN20USBML1237484",
+    "timestamp": "2026-01-15 22:29:37",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004550",
+    "parent": "SN20USBML1237509",
+    "timestamp": "2026-01-15 22:29:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004551",
+    "parent": "SN20USBML1237510",
+    "timestamp": "2026-01-15 22:29:59",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004555",
+    "parent": "SN20USBML1237511",
+    "timestamp": "2026-01-15 23:03:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004556",
+    "parent": "SN20USBML1237512",
+    "timestamp": "2026-01-15 23:15:34",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004557",
+    "parent": "SN20USBML1237513",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004558",
+    "parent": "SN20USBML1237514",
+    "timestamp": "2026-01-15 23:16:03",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004559",
+    "parent": "SN20USBML1237515",
+    "timestamp": "2026-01-15 23:16:17",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004560",
+    "parent": "SN20USBML1237516",
+    "timestamp": "2026-01-15 23:16:34",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004544",
+    "parent": "SN20USBML1237517",
+    "timestamp": "2026-01-15 21:53:07",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004545",
+    "parent": "SN20USBML1237518",
+    "timestamp": "2026-01-15 22:15:17",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004546",
+    "parent": "SN20USBML1237519",
+    "timestamp": "2026-01-15 22:19:24",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004547",
+    "parent": "SN20USBML1237520",
+    "timestamp": "2026-01-15 22:21:21",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004548",
+    "parent": "SN20USBML1237521",
+    "timestamp": "2026-01-15 22:21:36",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004561",
+    "parent": "SN20USBML1237522",
+    "timestamp": "2026-01-15 23:24:21",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004666",
+    "parent": "SN20USBML1237523",
+    "timestamp": "2026-01-21 23:48:48",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004667",
+    "parent": "SN20USBML1237524",
+    "timestamp": "2026-01-21 23:49:04",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004261",
+    "parent": "SN20USBML1237525",
+    "timestamp": "2025-12-03 00:19:47",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004262",
+    "parent": "SN20USBML1237526",
+    "timestamp": "2025-12-03 00:31:17",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004236",
+    "parent": "SN20USBML1237527",
+    "timestamp": "2025-12-01 19:50:11",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004668",
+    "parent": "SN20USBML1237544",
+    "timestamp": "2026-01-21 23:49:17",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004669",
+    "parent": "SN20USBML1237545",
+    "timestamp": "2026-01-21 23:49:32",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004670",
+    "parent": "SN20USBML1237546",
+    "timestamp": "2026-01-21 23:49:44",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004653",
+    "parent": "SN20USBML1237547",
+    "timestamp": "2026-01-21 22:06:26",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004554",
+    "parent": "SN20USBML1237548",
+    "timestamp": "2026-01-15 22:32:31",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004654",
+    "parent": "SN20USBML1237549",
+    "timestamp": "2026-01-21 22:23:36",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004655",
+    "parent": "SN20USBML1237550",
+    "timestamp": "2026-01-21 22:29:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004656",
+    "parent": "SN20USBML1237552",
+    "timestamp": "2026-01-21 22:29:26",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004660",
+    "parent": "SN20USBML1237553",
+    "timestamp": "2026-01-21 23:07:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004661",
+    "parent": "SN20USBML1237554",
+    "timestamp": "2026-01-21 23:08:10",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004662",
+    "parent": "SN20USBML1237555",
+    "timestamp": "2026-01-21 23:08:22",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004663",
+    "parent": "SN20USBML1237556",
+    "timestamp": "2026-01-21 23:08:34",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004664",
+    "parent": "SN20USBML1237557",
+    "timestamp": "2026-01-21 23:08:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004562",
+    "parent": "SN20USBML1237558",
+    "timestamp": "2026-01-15 23:24:34",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004563",
+    "parent": "SN20USBML1237559",
+    "timestamp": "2026-01-15 23:24:46",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004564",
+    "parent": "SN20USBML1237560",
+    "timestamp": "2026-01-15 23:25:02",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004649",
+    "parent": "SN20USBML1237561",
+    "timestamp": "2026-01-21 21:51:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004650",
+    "parent": "SN20USBML1237562",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004652",
+    "parent": "SN20USBML1237563",
+    "timestamp": "2026-01-21 22:06:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004830",
+    "parent": "SN20USBML1237564",
+    "timestamp": "2026-02-04 19:03:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004831",
+    "parent": "SN20USBML1237565",
+    "timestamp": "2026-02-04 19:09:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004552",
+    "parent": "SN20USBML1237566",
+    "timestamp": "2026-01-15 22:30:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004665",
+    "parent": "SN20USBML1237585",
+    "timestamp": "2026-01-21 23:09:06",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004553",
+    "parent": "SN20USBML1237586",
+    "timestamp": "2026-01-15 22:32:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004832",
+    "parent": "SN20USBML1237629",
+    "timestamp": "2026-02-04 19:09:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004833",
+    "parent": "SN20USBML1237630",
+    "timestamp": "2026-02-04 19:24:06",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004834",
+    "parent": "SN20USBML1237631",
+    "timestamp": "2026-02-04 19:24:20",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004835",
+    "parent": "SN20USBML1237632",
+    "timestamp": "2026-02-04 19:24:32",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004874",
+    "parent": "SN20USBML1237633",
+    "timestamp": "2026-02-05 19:54:00",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004875",
+    "parent": "SN20USBML1237634",
+    "timestamp": "2026-02-05 19:54:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004876",
+    "parent": "SN20USBML1237635",
+    "timestamp": "2026-02-05 19:54:27",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004877",
+    "parent": "SN20USBML1237636",
+    "timestamp": "2026-02-05 19:54:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004878",
+    "parent": "SN20USBML1237637",
+    "timestamp": "2026-02-05 22:01:43",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004879",
+    "parent": "SN20USBML1237638",
+    "timestamp": "2026-02-05 22:02:00",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004888",
+    "parent": "SN20USBML1237639",
+    "timestamp": "2026-02-05 22:42:03",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004889",
+    "parent": "SN20USBML1237640",
+    "timestamp": "2026-02-05 22:42:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004890",
+    "parent": "SN20USBML1237641",
+    "timestamp": "2026-02-05 22:42:31",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004891",
+    "parent": "SN20USBML1237642",
+    "timestamp": "2026-02-05 22:42:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004892",
+    "parent": "SN20USBML1237643",
+    "timestamp": "2026-02-05 23:34:45",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004893",
+    "parent": "SN20USBML1237644",
+    "timestamp": "2026-02-05 23:39:11",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004657",
+    "parent": "SN20USBML1237645",
+    "timestamp": "2026-01-21 22:37:33",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004658",
+    "parent": "SN20USBML1237646",
+    "timestamp": "2026-01-21 22:37:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004659",
+    "parent": "SN20USBML1237647",
+    "timestamp": "2026-01-21 22:38:00",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004836",
+    "parent": "SN20USBML1237648",
+    "timestamp": "2026-02-04 19:24:46",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004837",
+    "parent": "SN20USBML1237649",
+    "timestamp": "2026-02-04 19:57:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004838",
+    "parent": "SN20USBML1237650",
+    "timestamp": "2026-02-04 19:58:33",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004839",
+    "parent": "SN20USBML1237651",
+    "timestamp": "2026-02-04 19:58:45",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004840",
+    "parent": "SN20USBML1237652",
+    "timestamp": "2026-02-04 20:02:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004883",
+    "parent": "SN20USBML1237653",
+    "timestamp": "2026-02-05 22:02:56",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004841",
+    "parent": "SN20USBML1237657",
+    "timestamp": "2026-02-04 20:04:56",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004895",
+    "parent": "SN20USBML1237658",
+    "timestamp": "2026-02-05 23:40:21",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004896",
+    "parent": "SN20USBML1237659",
+    "timestamp": "2026-02-05 23:41:48",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004897",
+    "parent": "SN20USBML1237660",
+    "timestamp": "2026-02-05 23:42:04",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004901",
+    "parent": "SN20USBML1237661",
+    "timestamp": "2026-02-06 00:34:40",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004902",
+    "parent": "SN20USBML1237662",
+    "timestamp": "2026-02-06 00:34:56",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004903",
+    "parent": "SN20USBML1237663",
+    "timestamp": "2026-02-06 00:35:08",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004651",
+    "parent": "SN20USBML1237664",
+    "timestamp": "2026-01-21 22:03:57",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004898",
+    "parent": "SN20USBML1237665",
+    "timestamp": "2026-02-05 23:42:16",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004899",
+    "parent": "SN20USBML1237666",
+    "timestamp": "2026-02-05 23:42:27",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004886",
+    "parent": "SN20USBML1237667",
+    "timestamp": "2026-02-05 22:41:28",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004887",
+    "parent": "SN20USBML1237668",
+    "timestamp": "2026-02-05 22:41:45",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004880",
+    "parent": "SN20USBML1237669",
+    "timestamp": "2026-02-05 22:02:16",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004881",
+    "parent": "SN20USBML1237670",
+    "timestamp": "2026-02-05 22:02:30",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004882",
+    "parent": "SN20USBML1237671",
+    "timestamp": "2026-02-05 22:02:44",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004885",
+    "parent": "SN20USBML1237672",
+    "timestamp": "2026-02-05 22:41:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004884",
+    "parent": "SN20USBML1237673",
+    "timestamp": "2026-02-05 22:03:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004900",
+    "parent": "SN20USBML1237674",
+    "timestamp": "2026-02-06 00:34:25",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005064",
+    "parent": "SN20USBML1237675",
+    "timestamp": "2026-02-23 22:01:50",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005075",
+    "parent": "SN20USBML1237676",
+    "timestamp": "2026-02-23 22:51:04",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005068",
+    "parent": "SN20USBML1237677",
+    "timestamp": "2026-02-23 22:02:46",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005076",
+    "parent": "SN20USBML1237678",
+    "timestamp": "2026-02-23 23:19:16",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005077",
+    "parent": "SN20USBML1237679",
+    "timestamp": "2026-02-23 23:19:33",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005078",
+    "parent": "SN20USBML1237680",
+    "timestamp": "2026-02-23 23:19:45",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005079",
+    "parent": "SN20USBML1237681",
+    "timestamp": "2026-02-23 23:19:59",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005080",
+    "parent": "SN20USBML1237682",
+    "timestamp": "2026-02-23 23:20:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005081",
+    "parent": "SN20USBML1237683",
+    "timestamp": "2026-02-23 23:20:29",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004982",
+    "parent": "SN20USBML1237684",
+    "timestamp": "2026-02-19 20:07:09",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004983",
+    "parent": "SN20USBML1237685",
+    "timestamp": "2026-02-19 21:43:47",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004984",
+    "parent": "SN20USBML1237686",
+    "timestamp": "2026-02-19 21:50:38",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004985",
+    "parent": "SN20USBML1237687",
+    "timestamp": "2026-02-19 21:57:04",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004986",
+    "parent": "SN20USBML1237688",
+    "timestamp": "2026-02-19 22:09:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004987",
+    "parent": "SN20USBML1237689",
+    "timestamp": "2026-02-19 22:11:56",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005045",
+    "parent": "SN20USBML1237690",
+    "timestamp": "2026-02-20 22:19:05",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005047",
+    "parent": "SN20USBML1237691",
+    "timestamp": "2026-02-20 22:19:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005048",
+    "parent": "SN20USBML1237921",
+    "timestamp": "2026-02-20 22:20:07",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005049",
+    "parent": "SN20USBML1237922",
+    "timestamp": "2026-02-20 22:20:22",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005050",
+    "parent": "SN20USBML1237923",
+    "timestamp": "2026-02-20 22:20:38",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005051",
+    "parent": "SN20USBML1237924",
+    "timestamp": "2026-02-20 22:20:52",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005039",
+    "parent": "SN20USBML1237929",
+    "timestamp": "2026-02-20 20:07:01",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005040",
+    "parent": "SN20USBML1237930",
+    "timestamp": "2026-02-20 21:36:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005041",
+    "parent": "SN20USBML1237931",
+    "timestamp": "2026-02-20 21:37:31",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005042",
+    "parent": "SN20USBML1237932",
+    "timestamp": "2026-02-20 21:39:16",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005043",
+    "parent": "SN20USBML1237951",
+    "timestamp": "2026-02-20 21:39:38",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005044",
+    "parent": "SN20USBML1237952",
+    "timestamp": "2026-02-20 21:39:52",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005053",
+    "parent": "SN20USBML1237953",
+    "timestamp": "2026-02-20 23:04:27",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005054",
+    "parent": "SN20USBML1237954",
+    "timestamp": "2026-02-20 23:04:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005055",
+    "parent": "SN20USBML1237955",
+    "timestamp": "2026-02-20 23:04:54",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005056",
+    "parent": "SN20USBML1237956",
+    "timestamp": "2026-02-20 23:05:11",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005082",
+    "parent": "SN20USBML1237957",
+    "timestamp": "2026-02-24 00:00:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005083",
+    "parent": "SN20USBML1237958",
+    "timestamp": "2026-02-24 00:00:30",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005001",
+    "parent": "SN20USBML1237959",
+    "timestamp": "2026-02-19 23:53:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005002",
+    "parent": "SN20USBML1237960",
+    "timestamp": "2026-02-19 23:54:37",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005003",
+    "parent": "SN20USBML1237961",
+    "timestamp": "2026-02-19 23:54:57",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005004",
+    "parent": "SN20USBML1237962",
+    "timestamp": "2026-02-19 23:55:52",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005005",
+    "parent": "SN20USBML1237963",
+    "timestamp": "2026-02-19 23:56:04",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005006",
+    "parent": "SN20USBML1237964",
+    "timestamp": "2026-02-19 23:56:17",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004988",
+    "parent": "SN20USBML1237965",
+    "timestamp": "2026-02-19 22:20:12",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004989",
+    "parent": "SN20USBML1237966",
+    "timestamp": "2026-02-19 22:20:27",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004990",
+    "parent": "SN20USBML1237967",
+    "timestamp": "2026-02-19 22:20:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004991",
+    "parent": "SN20USBML1237968",
+    "timestamp": "2026-02-19 22:22:22",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004992",
+    "parent": "SN20USBML1237969",
+    "timestamp": "2026-02-19 22:22:36",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004993",
+    "parent": "SN20USBML1237970",
+    "timestamp": "2026-02-19 22:25:28",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004844",
+    "parent": "SN20USBML1237971",
+    "timestamp": "2026-02-04 20:49:10",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004845",
+    "parent": "SN20USBML1237972",
+    "timestamp": "2026-02-04 20:58:37",
+    "status": "Category D(i) \u2014 Incomplete IV dataset"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004846",
+    "parent": "SN20USBML1237973",
+    "timestamp": "2026-02-04 20:59:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004847",
+    "parent": "SN20USBML1237974",
+    "timestamp": "2026-02-04 20:59:51",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004842",
+    "parent": "SN20USBML1237975",
+    "timestamp": "2026-02-04 20:07:15",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004843",
+    "parent": "SN20USBML1237976",
+    "timestamp": "2026-02-04 20:07:27",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004981",
+    "parent": "SN20USBML1237978",
+    "timestamp": "2026-02-19 20:06:02",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004994",
+    "parent": "SN20USBML1237979",
+    "timestamp": "2026-02-19 22:25:48",
+    "status": "Category D(i) \u2014 Incomplete IV dataset"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005052",
+    "parent": "SN20USBML1237981",
+    "timestamp": "2026-02-20 23:04:08",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004904",
+    "parent": "SN20USBML1237982",
+    "timestamp": "2026-02-06 00:35:21",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004905",
+    "parent": "SN20USBML1237983",
+    "timestamp": "2026-02-06 00:35:36",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004906",
+    "parent": "SN20USBML1237984",
+    "timestamp": "2026-02-06 00:35:50",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005007",
+    "parent": "SN20USBML1237985",
+    "timestamp": "2026-02-19 23:58:53",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005034",
+    "parent": "SN20USBML1237986",
+    "timestamp": "2026-02-20 19:34:46",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005035",
+    "parent": "SN20USBML1237987",
+    "timestamp": "2026-02-20 19:35:03",
+    "status": "Category D(i) \u2014 Incomplete IV dataset"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005065",
+    "parent": "SN20USBML1237988",
+    "timestamp": "2026-02-23 22:02:04",
+    "status": "Category D(ii) \u2014 Incomplete input-noise dataset; Category D(i) \u2014 Incomplete IV dataset"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005036",
+    "parent": "SN20USBML1237989",
+    "timestamp": "2026-02-20 19:35:16",
+    "status": "Category D(ii) \u2014 Incomplete input-noise dataset; Category D(i) \u2014 Incomplete IV dataset"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005037",
+    "parent": "SN20USBML1237990",
+    "timestamp": "2026-02-20 19:35:31",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005038",
+    "parent": "SN20USBML1237991",
+    "timestamp": "2026-02-20 19:35:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005066",
+    "parent": "SN20USBML1237992",
+    "timestamp": "2026-02-23 22:02:19",
+    "status": "Category D(ii) \u2014 Incomplete input-noise dataset; Category D(i) \u2014 Incomplete IV dataset"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005067",
+    "parent": "SN20USBML1237993",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005291",
+    "parent": "SN20USBML1237994",
+    "timestamp": "2026-03-16 22:22:38",
+    "status": "Category D(ii) \u2014 Incomplete input-noise dataset; Category D(i) \u2014 Incomplete IV dataset"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005292",
+    "parent": "SN20USBML1237995",
+    "timestamp": "2026-03-16 22:22:55",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005299",
+    "parent": "SN20USBML1237996",
+    "timestamp": "2026-03-16 23:03:29",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005074",
+    "parent": "SN20USBML1237997",
+    "timestamp": "2026-02-23 22:49:56",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005294",
+    "parent": "SN20USBML1237998",
+    "timestamp": "2026-03-16 23:01:14",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005295",
+    "parent": "SN20USBML1237999",
+    "timestamp": "2026-03-16 23:02:32",
+    "status": "Category D(ii) \u2014 Incomplete input-noise dataset; Category D(i) \u2014 Incomplete IV dataset"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005296",
+    "parent": "SN20USBML1238000",
+    "timestamp": "2026-03-16 23:02:48",
+    "status": "Category D(ii) \u2014 Incomplete input-noise dataset; Category D(i) \u2014 Incomplete IV dataset"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005224",
+    "parent": "SN20USBML1238001",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005069",
+    "parent": "SN20USBML1238002",
+    "timestamp": "2026-02-23 22:48:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005070",
+    "parent": "SN20USBML1238003",
+    "timestamp": "2026-02-23 22:49:04",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005297",
+    "parent": "SN20USBML1238359",
+    "timestamp": "2026-03-16 23:03:01",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005298",
+    "parent": "SN20USBML1238360",
+    "timestamp": "2026-03-16 23:03:14",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005072",
+    "parent": "SN20USBML1238361",
+    "timestamp": "2026-02-23 22:49:28",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005073",
+    "parent": "SN20USBML1238362",
+    "timestamp": "2026-02-23 22:49:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005223",
+    "parent": "SN20USBML1238363",
+    "timestamp": "2026-03-12 18:55:16",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005222",
+    "parent": "SN20USBML1238364",
+    "timestamp": "2026-03-12 18:47:32",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005220",
+    "parent": "SN20USBML1238365",
+    "timestamp": "2026-03-12 18:35:12",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005221",
+    "parent": "SN20USBML1238366",
+    "timestamp": "2026-03-12 18:41:21",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005219",
+    "parent": "SN20USBML1238367",
+    "timestamp": "2026-03-12 18:28:47",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005248",
+    "parent": "SN20USBML1238368",
+    "timestamp": "2026-03-12 22:52:06",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005249",
+    "parent": "SN20USBML1238369",
+    "timestamp": "2026-03-13 21:09:06",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005250",
+    "parent": "SN20USBML1238370",
+    "timestamp": "2026-03-13 21:11:38",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005251",
+    "parent": "SN20USBML1238371",
+    "timestamp": "2026-03-13 21:21:02",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005252",
+    "parent": "SN20USBML1238372",
+    "timestamp": "2026-03-13 21:30:35",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005253",
+    "parent": "SN20USBML1238373",
+    "timestamp": "2026-03-13 21:33:11",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005254",
+    "parent": "SN20USBML1238374",
+    "timestamp": "2026-03-13 21:34:32",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005229",
+    "parent": "SN20USBML1238375",
+    "timestamp": "2026-03-12 20:49:44",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005230",
+    "parent": "SN20USBML1238376",
+    "timestamp": "2026-03-12 20:55:19",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005225",
+    "parent": "SN20USBML1238377",
+    "timestamp": "2026-03-12 20:23:55",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005226",
+    "parent": "SN20USBML1238378",
+    "timestamp": "2026-03-12 20:29:46",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005227",
+    "parent": "SN20USBML1238379",
+    "timestamp": "2026-03-12 20:39:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005228",
+    "parent": "SN20USBML1238380",
+    "timestamp": "2026-03-12 20:45:57",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005231",
+    "parent": "SN20USBML1238381",
+    "timestamp": "2026-03-12 20:58:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005232",
+    "parent": "SN20USBML1238382",
+    "timestamp": "2026-03-12 21:01:50",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005233",
+    "parent": "SN20USBML1238383",
+    "timestamp": "2026-03-12 21:08:10",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005234",
+    "parent": "SN20USBML1238384",
+    "timestamp": "2026-03-12 21:14:08",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005235",
+    "parent": "SN20USBML1238385",
+    "timestamp": "2026-03-12 21:20:50",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005236",
+    "parent": "SN20USBML1238386",
+    "timestamp": "2026-03-12 21:28:05",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005522",
+    "parent": "SN20USBML1238387",
+    "timestamp": "2026-03-30 21:02:56",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005521",
+    "parent": "SN20USBML1238388",
+    "timestamp": "2026-03-30 21:02:36",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005523",
+    "parent": "SN20USBML1238389",
+    "timestamp": "2026-03-30 21:03:26",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005520",
+    "parent": "SN20USBML1238390",
+    "timestamp": "2026-03-30 21:02:19",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005524",
+    "parent": "SN20USBML1238391",
+    "timestamp": "2026-03-30 21:03:39",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005525",
+    "parent": "SN20USBML1238392",
+    "timestamp": "2026-03-30 21:03:52",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005513",
+    "parent": "SN20USBML1238393",
+    "timestamp": "2026-03-30 18:41:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005515",
+    "parent": "SN20USBML1238394",
+    "timestamp": "2026-03-30 18:43:34",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005514",
+    "parent": "SN20USBML1238395",
+    "timestamp": "2026-03-30 18:41:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005516",
+    "parent": "SN20USBML1238396",
+    "timestamp": "2026-03-30 18:43:46",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005517",
+    "parent": "SN20USBML1238397",
+    "timestamp": "2026-03-30 18:44:23",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005561",
+    "parent": "SN20USBML1238398",
+    "timestamp": "2026-03-31 21:14:25",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005518",
+    "parent": "SN20USBML1238399",
+    "timestamp": "2026-03-30 18:44:40",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005562",
+    "parent": "SN20USBML1238400",
+    "timestamp": "2026-03-31 21:14:40",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005563",
+    "parent": "SN20USBML1238401",
+    "timestamp": "2026-03-31 21:14:54",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005564",
+    "parent": "SN20USBML1238403",
+    "timestamp": "2026-03-31 21:19:04",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005566",
+    "parent": "SN20USBML1238409",
+    "timestamp": "2026-03-31 21:48:48",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005565",
+    "parent": "SN20USBML1238410",
+    "timestamp": "2026-03-31 21:48:30",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005286",
+    "parent": "SN20USBML1238411",
+    "timestamp": "2026-03-16 22:16:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005287",
+    "parent": "SN20USBML1238412",
+    "timestamp": "2026-03-16 22:18:25",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005289",
+    "parent": "SN20USBML1238413",
+    "timestamp": "2026-03-16 22:20:53",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005290",
+    "parent": "SN20USBML1238414",
+    "timestamp": "2026-03-16 22:21:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005285",
+    "parent": "SN20USBML1238415",
+    "timestamp": "2026-03-16 21:06:28",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005242",
+    "parent": "SN20USBML1238416",
+    "timestamp": "2026-03-12 22:12:11",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005237",
+    "parent": "SN20USBML1238417",
+    "timestamp": "2026-03-12 21:32:33",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005288",
+    "parent": "SN20USBML1238418",
+    "timestamp": "2026-03-16 22:20:38",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005238",
+    "parent": "SN20USBML1238419",
+    "timestamp": "2026-03-12 21:38:43",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005239",
+    "parent": "SN20USBML1238420",
+    "timestamp": "2026-03-12 21:45:53",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005240",
+    "parent": "SN20USBML1238421",
+    "timestamp": "2026-03-12 21:51:00",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005241",
+    "parent": "SN20USBML1238422",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005279",
+    "parent": "SN20USBML1238423",
+    "timestamp": "2026-03-16 21:03:04",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005280",
+    "parent": "SN20USBML1238424",
+    "timestamp": "2026-03-16 21:03:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005281",
+    "parent": "SN20USBML1238425",
+    "timestamp": "2026-03-16 21:04:00",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005282",
+    "parent": "SN20USBML1238426",
+    "timestamp": "2026-03-16 21:05:41",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005283",
+    "parent": "SN20USBML1238427",
+    "timestamp": "2026-03-16 21:05:53",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005071",
+    "parent": "SN20USBML1238428",
+    "timestamp": "2026-02-23 22:49:15",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004871",
+    "parent": "SN20USBML1238984",
+    "timestamp": "2026-02-05 19:29:18",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004872",
+    "parent": "SN20USBML1238985",
+    "timestamp": "2026-02-05 19:53:30",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004873",
+    "parent": "SN20USBML1238986",
+    "timestamp": "2026-02-05 19:53:45",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004849",
+    "parent": "SN20USBML1238987",
+    "timestamp": "2026-02-04 21:07:08",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004850",
+    "parent": "SN20USBML1238988",
+    "timestamp": "2026-02-04 21:12:30",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004851",
+    "parent": "SN20USBML1238989",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005595",
+    "parent": "SN20USBML1238990",
+    "timestamp": "2026-04-01 21:41:11",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005596",
+    "parent": "SN20USBML1238991",
+    "timestamp": "2026-04-01 21:41:29",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005597",
+    "parent": "SN20USBML1238992",
+    "timestamp": "2026-04-01 21:41:42",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005598",
+    "parent": "SN20USBML1238993",
+    "timestamp": "2026-04-01 21:45:10",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005599",
+    "parent": "SN20USBML1238994",
+    "timestamp": "2026-04-01 21:45:25",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005600",
+    "parent": "SN20USBML1238995",
+    "timestamp": "2026-04-01 21:45:40",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005243",
+    "parent": "SN20USBML1238996",
+    "timestamp": "2026-03-12 22:22:49",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005244",
+    "parent": "SN20USBML1238997",
+    "timestamp": "2026-03-12 22:27:35",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005245",
+    "parent": "SN20USBML1238998",
+    "timestamp": "2026-03-12 22:35:29",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005246",
+    "parent": "SN20USBML1238999",
+    "timestamp": "2026-03-12 22:45:03",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005247",
+    "parent": "SN20USBML1239000",
+    "timestamp": "2026-03-12 22:51:31",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005608",
+    "parent": "SN20USBML1239001",
+    "timestamp": "2026-04-01 21:59:24",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004995",
+    "parent": "SN20USBML1239002",
+    "timestamp": "2026-02-19 23:19:39",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004996",
+    "parent": "SN20USBML1239003",
+    "timestamp": "2026-02-19 23:19:55",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004997",
+    "parent": "SN20USBML1239004",
+    "timestamp": "2026-02-19 23:20:13",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004998",
+    "parent": "SN20USBML1239005",
+    "timestamp": "2026-02-19 23:20:26",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2004999",
+    "parent": "SN20USBML1239006",
+    "timestamp": "2026-02-19 23:20:40",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005000",
+    "parent": "SN20USBML1239007",
+    "timestamp": "2026-02-19 23:20:51",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005602",
+    "parent": "SN20USBML1239008",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005603",
+    "parent": "SN20USBML1239009",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005604",
+    "parent": "SN20USBML1239010",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005605",
+    "parent": "SN20USBML1239011",
+    "timestamp": "",
+    "status": "Category E(ii) \u2014 Input-noise data unavailable or could not be processed; Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005606",
+    "parent": "SN20USBML1239012",
+    "timestamp": "2026-04-01 21:58:07",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005607",
+    "parent": "SN20USBML1239013",
+    "timestamp": "2026-04-01 21:59:09",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "SN20USBHX2005284",
+    "parent": "SN20USBML1239032",
+    "timestamp": "2026-03-16 21:06:14",
+    "status": "OK"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1237181",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1237551",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239014",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239015",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239016",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239017",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239018",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239019",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239020",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239021",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239022",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239023",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239024",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239025",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239026",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239027",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239028",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239029",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239030",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  },
+  {
+    "institute": "UCSC",
+    "serial": "",
+    "parent": "SN20USBML1239031",
+    "timestamp": "",
+    "status": "Category E(i) \u2014 IV data unavailable or could not be processed"
+  }
+]
