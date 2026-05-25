@@ -1,0 +1,1092 @@
+#!/usr/bin/env python3
+# python get_test_timestamp_full_list_UCSC.py
+
+import os
+import re
+import json
+from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+import itkdb
+
+
+# ============================================================
+# HX serials used for timestamp lookup
+# Only these HX serials are queried in ITkDB.
+# ============================================================
+
+serial_numbers = [
+    "20USBHX2003578",
+    "20USBHX2003580",
+    "20USBHX2003579",
+    "20USBHX2003581",
+    "20USBHX2003582",
+    "20USBHX2003583",
+    "20USBHX2003618",
+    "20USBHX2003619",
+    "20USBHX2003621",
+    "20USBHX2003616",
+    "20USBHX2003617",
+    "20USBHX2003753",
+    "20USBHX2003754",
+    "20USBHX2003755",
+    "20USBHX2003746",
+    "20USBHX2003747",
+    "20USBHX2003758",
+    "20USBHX2003759",
+    "20USBHX2003760",
+    "20USBHX2003761",
+    "20USBHX2003762",
+    "20USBHX2003620",
+    "20USBHX2003752",
+    "20USBHX2003448",
+    "20USBHX2003449",
+    "20USBHX2003450",
+    "20USBHX2003451",
+    "20USBHX2003452",
+    "20USBHX2003461",
+    "20USBHX2003764",
+    "20USBHX2003745",
+    "20USBHX2003766",
+    "20USBHX2003768",
+    "20USBHX2003776",
+    "20USBHX2003777",
+    "20USBHX2003474",
+    "20USBHX2003591",
+    "20USBHX2003781",
+    "20USBHX2003778",
+    "20USBHX2003779",
+    "20USBHX2003780",
+    "20USBHX2003788",
+    "20USBHX2003756",
+    "20USBHX2003757",
+    "20USBHX2003789",
+    "20USBHX2003790",
+    "20USBHX2003782",
+    "20USBHX2003783",
+    "20USBHX2003784",
+    "20USBHX2003765",
+    "20USBHX2003611",
+    "20USBHX2003612",
+    "20USBHX2003613",
+    "20USBHX2003614",
+    "20USBHX2003615",
+    "20USBHX2003610",
+    "20USBHX2003785",
+    "20USBHX2003786",
+    "20USBHX2003787",
+    "20USBHX2003793",
+    "20USBHX2004230",
+    "20USBHX2004231",
+    "20USBHX2004232",
+    "20USBHX2004233",
+    "20USBHX2004234",
+    "20USBHX2004235",
+    "20USBHX2004258",
+    "20USBHX2004259",
+    "20USBHX2004260",
+    "20USBHX2004263",
+    "20USBHX2004237",
+    "20USBHX2004238",
+    "20USBHX2004239",
+    "20USBHX2004240",
+    "20USBHX2004241",
+    "20USBHX2004243",
+    "20USBHX2004244",
+    "20USBHX2004245",
+    "20USBHX2004549",
+    "20USBHX2004550",
+    "20USBHX2004551",
+    "20USBHX2004555",
+    "20USBHX2004556",
+    "20USBHX2004557",
+    "20USBHX2004558",
+    "20USBHX2004559",
+    "20USBHX2004560",
+    "20USBHX2004544",
+    "20USBHX2004545",
+    "20USBHX2004546",
+    "20USBHX2004547",
+    "20USBHX2004548",
+    "20USBHX2004561",
+    "20USBHX2004666",
+    "20USBHX2004667",
+    "20USBHX2004261",
+    "20USBHX2004262",
+    "20USBHX2004236",
+    "20USBHX2004668",
+    "20USBHX2004669",
+    "20USBHX2004670",
+    "20USBHX2004653",
+    "20USBHX2004554",
+    "20USBHX2004654",
+    "20USBHX2004655",
+    "20USBHX2004656",
+    "20USBHX2004660",
+    "20USBHX2004661",
+    "20USBHX2004662",
+    "20USBHX2004663",
+    "20USBHX2004664",
+    "20USBHX2004562",
+    "20USBHX2004563",
+    "20USBHX2004564",
+    "20USBHX2004649",
+    "20USBHX2004650",
+    "20USBHX2004652",
+    "20USBHX2004830",
+    "20USBHX2004831",
+    "20USBHX2004552",
+    "20USBHX2004665",
+    "20USBHX2004553",
+    "20USBHX2004832",
+    "20USBHX2004833",
+    "20USBHX2004834",
+    "20USBHX2004835",
+    "20USBHX2004874",
+    "20USBHX2004875",
+    "20USBHX2004876",
+    "20USBHX2004877",
+    "20USBHX2004878",
+    "20USBHX2004879",
+    "20USBHX2004888",
+    "20USBHX2004889",
+    "20USBHX2004890",
+    "20USBHX2004891",
+    "20USBHX2004892",
+    "20USBHX2004893",
+    "20USBHX2004657",
+    "20USBHX2004658",
+    "20USBHX2004659",
+    "20USBHX2004836",
+    "20USBHX2004837",
+    "20USBHX2004838",
+    "20USBHX2004839",
+    "20USBHX2004840",
+    "20USBHX2004883",
+    "20USBHX2004841",
+    "20USBHX2004895",
+    "20USBHX2004896",
+    "20USBHX2004897",
+    "20USBHX2004901",
+    "20USBHX2004902",
+    "20USBHX2004903",
+    "20USBHX2004651",
+    "20USBHX2004898",
+    "20USBHX2004899",
+    "20USBHX2004886",
+    "20USBHX2004887",
+    "20USBHX2004880",
+    "20USBHX2004881",
+    "20USBHX2004882",
+    "20USBHX2004885",
+    "20USBHX2004884",
+    "20USBHX2004900",
+    "20USBHX2005064",
+    "20USBHX2005075",
+    "20USBHX2005068",
+    "20USBHX2005076",
+    "20USBHX2005077",
+    "20USBHX2005078",
+    "20USBHX2005079",
+    "20USBHX2005080",
+    "20USBHX2005081",
+    "20USBHX2004982",
+    "20USBHX2004983",
+    "20USBHX2004984",
+    "20USBHX2004985",
+    "20USBHX2004986",
+    "20USBHX2004987",
+    "20USBHX2005045",
+    "20USBHX2005047",
+    "20USBHX2005048",
+    "20USBHX2005049",
+    "20USBHX2005050",
+    "20USBHX2005051",
+    "20USBHX2005039",
+    "20USBHX2005040",
+    "20USBHX2005041",
+    "20USBHX2005042",
+    "20USBHX2005043",
+    "20USBHX2005044",
+    "20USBHX2005053",
+    "20USBHX2005054",
+    "20USBHX2005055",
+    "20USBHX2005056",
+    "20USBHX2005082",
+    "20USBHX2005083",
+    "20USBHX2005001",
+    "20USBHX2005002",
+    "20USBHX2005003",
+    "20USBHX2005004",
+    "20USBHX2005005",
+    "20USBHX2005006",
+    "20USBHX2004988",
+    "20USBHX2004989",
+    "20USBHX2004990",
+    "20USBHX2004991",
+    "20USBHX2004992",
+    "20USBHX2004993",
+    "20USBHX2004844",
+    "20USBHX2004845",
+    "20USBHX2004846",
+    "20USBHX2004847",
+    "20USBHX2004842",
+    "20USBHX2004843",
+    "20USBHX2004981",
+    "20USBHX2004994",
+    "20USBHX2005052",
+    "20USBHX2004904",
+    "20USBHX2004905",
+    "20USBHX2004906",
+    "20USBHX2005007",
+    "20USBHX2005034",
+    "20USBHX2005035",
+    "20USBHX2005065",
+    "20USBHX2005036",
+    "20USBHX2005037",
+    "20USBHX2005038",
+    "20USBHX2005066",
+    "20USBHX2005067",
+    "20USBHX2005291",
+    "20USBHX2005292",
+    "20USBHX2005299",
+    "20USBHX2005074",
+    "20USBHX2005294",
+    "20USBHX2005295",
+    "20USBHX2005296",
+    "20USBHX2005224",
+    "20USBHX2005069",
+    "20USBHX2005070",
+    "20USBHX2005297",
+    "20USBHX2005298",
+    "20USBHX2005072",
+    "20USBHX2005073",
+    "20USBHX2005223",
+    "20USBHX2005222",
+    "20USBHX2005220",
+    "20USBHX2005221",
+    "20USBHX2005219",
+    "20USBHX2005248",
+    "20USBHX2005249",
+    "20USBHX2005250",
+    "20USBHX2005251",
+    "20USBHX2005252",
+    "20USBHX2005253",
+    "20USBHX2005254",
+    "20USBHX2005229",
+    "20USBHX2005230",
+    "20USBHX2005225",
+    "20USBHX2005226",
+    "20USBHX2005227",
+    "20USBHX2005228",
+    "20USBHX2005231",
+    "20USBHX2005232",
+    "20USBHX2005233",
+    "20USBHX2005234",
+    "20USBHX2005235",
+    "20USBHX2005236",
+    "20USBHX2005522",
+    "20USBHX2005521",
+    "20USBHX2005523",
+    "20USBHX2005520",
+    "20USBHX2005524",
+    "20USBHX2005525",
+    "20USBHX2005513",
+    "20USBHX2005515",
+    "20USBHX2005514",
+    "20USBHX2005516",
+    "20USBHX2005517",
+    "20USBHX2005561",
+    "20USBHX2005518",
+    "20USBHX2005562",
+    "20USBHX2005563",
+    "20USBHX2005564",
+    "20USBHX2005566",
+    "20USBHX2005565",
+    "20USBHX2005286",
+    "20USBHX2005287",
+    "20USBHX2005289",
+    "20USBHX2005290",
+    "20USBHX2005285",
+    "20USBHX2005242",
+    "20USBHX2005237",
+    "20USBHX2005288",
+    "20USBHX2005238",
+    "20USBHX2005239",
+    "20USBHX2005240",
+    "20USBHX2005241",
+    "20USBHX2005279",
+    "20USBHX2005280",
+    "20USBHX2005281",
+    "20USBHX2005282",
+    "20USBHX2005283",
+    "20USBHX2005071",
+    "20USBHX2004871",
+    "20USBHX2004872",
+    "20USBHX2004873",
+    "20USBHX2004849",
+    "20USBHX2004850",
+    "20USBHX2004851",
+    "20USBHX2005595",
+    "20USBHX2005596",
+    "20USBHX2005597",
+    "20USBHX2005598",
+    "20USBHX2005599",
+    "20USBHX2005600",
+    "20USBHX2005243",
+    "20USBHX2005244",
+    "20USBHX2005245",
+    "20USBHX2005246",
+    "20USBHX2005247",
+    "20USBHX2005608",
+    "20USBHX2004995",
+    "20USBHX2004996",
+    "20USBHX2004997",
+    "20USBHX2004998",
+    "20USBHX2004999",
+    "20USBHX2005000",
+    "20USBHX2005602",
+    "20USBHX2005603",
+    "20USBHX2005604",
+    "20USBHX2005605",
+    "20USBHX2005606",
+    "20USBHX2005607",
+    "20USBHX2005284",
+]
+
+
+raw_ml_hx_text = """
+'20USBML1236791': '20USBHX2003578',
+'20USBML1236792': '20USBHX2003580',
+'20USBML1236793': '20USBHX2003579',
+'20USBML1236794': '20USBHX2003581',
+'20USBML1236795': '20USBHX2003582',
+'20USBML1236796': '20USBHX2003583',
+'20USBML1236797': '20USBHX2003618',
+'20USBML1236798': '20USBHX2003619',
+'20USBML1236799': '20USBHX2003621',
+'20USBML1236800': '20USBHX2003616',
+'20USBML1236801': '20USBHX2003617',
+'20USBML1236802': '20USBHX2003753',
+'20USBML1236803': '20USBHX2003754',
+'20USBML1236804': '20USBHX2003755',
+'20USBML1236805': '20USBHX2003746',
+'20USBML1236806': '20USBHX2003747',
+'20USBML1236807': '20USBHX2003758',
+'20USBML1236808': '20USBHX2003759',
+'20USBML1236809': '20USBHX2003760',
+'20USBML1236810': '20USBHX2003761',
+'20USBML1236811': '20USBHX2003762',
+'20USBML1236892': '20USBHX2003620',
+'20USBML1236893': '20USBHX2003752',
+'20USBML1236956': '20USBHX2003448',
+'20USBML1236957': '20USBHX2003449',
+'20USBML1236958': '20USBHX2003450',
+'20USBML1236959': '20USBHX2003451',
+'20USBML1236960': '20USBHX2003452',
+'20USBML1236961': '20USBHX2003461',
+'20USBML1236962': '20USBHX2003764',
+'20USBML1236963': '20USBHX2003745',
+'20USBML1236964': '20USBHX2003766',
+'20USBML1236965': '20USBHX2003768',
+'20USBML1236966': '20USBHX2003776',
+'20USBML1236967': '20USBHX2003777',
+'20USBML1236968': '20USBHX2003474',
+'20USBML1236969': '20USBHX2003591',
+'20USBML1236970': '20USBHX2003781',
+'20USBML1236971': '20USBHX2003778',
+'20USBML1236972': '20USBHX2003779',
+'20USBML1236973': '20USBHX2003780',
+'20USBML1236974': '20USBHX2003788',
+'20USBML1236975': '20USBHX2003756',
+'20USBML1236976': '20USBHX2003757',
+'20USBML1236977': '20USBHX2003789',
+'20USBML1236978': '20USBHX2003790',
+'20USBML1237126': '20USBHX2003782',
+'20USBML1237127': '20USBHX2003783',
+'20USBML1237128': '20USBHX2003784',
+'20USBML1237129': '20USBHX2003765',
+'20USBML1237130': '20USBHX2003611',
+'20USBML1237131': '20USBHX2003612',
+'20USBML1237132': '20USBHX2003613',
+'20USBML1237133': '20USBHX2003614',
+'20USBML1237161': '20USBHX2003615',
+'20USBML1237162': '20USBHX2003610',
+'20USBML1237163': '20USBHX2003785',
+'20USBML1237164': '20USBHX2003786',
+'20USBML1237178': '20USBHX2003787',
+'20USBML1237179': '20USBHX2003793',
+'20USBML1237180': '20USBHX2004230',
+'20USBML1237181': '',
+'20USBML1237182': '20USBHX2004231',
+'20USBML1237183': '20USBHX2004232',
+'20USBML1237184': '20USBHX2004233',
+'20USBML1237185': '20USBHX2004234',
+'20USBML1237186': '20USBHX2004235',
+'20USBML1237187': '20USBHX2004258',
+'20USBML1237188': '20USBHX2004259',
+'20USBML1237189': '20USBHX2004260',
+'20USBML1237190': '20USBHX2004263',
+'20USBML1237476': '20USBHX2004237',
+'20USBML1237477': '20USBHX2004238',
+'20USBML1237478': '20USBHX2004239',
+'20USBML1237479': '20USBHX2004240',
+'20USBML1237480': '20USBHX2004241',
+'20USBML1237481': '20USBHX2004243',
+'20USBML1237482': '20USBHX2004244',
+'20USBML1237483': '20USBHX2004245',
+'20USBML1237484': '20USBHX2004549',
+'20USBML1237509': '20USBHX2004550',
+'20USBML1237510': '20USBHX2004551',
+'20USBML1237511': '20USBHX2004555',
+'20USBML1237512': '20USBHX2004556',
+'20USBML1237513': '20USBHX2004557',
+'20USBML1237514': '20USBHX2004558',
+'20USBML1237515': '20USBHX2004559',
+'20USBML1237516': '20USBHX2004560',
+'20USBML1237517': '20USBHX2004544',
+'20USBML1237518': '20USBHX2004545',
+'20USBML1237519': '20USBHX2004546',
+'20USBML1237520': '20USBHX2004547',
+'20USBML1237521': '20USBHX2004548',
+'20USBML1237522': '20USBHX2004561',
+'20USBML1237523': '20USBHX2004666',
+'20USBML1237524': '20USBHX2004667',
+'20USBML1237525': '20USBHX2004261',
+'20USBML1237526': '20USBHX2004262',
+'20USBML1237527': '20USBHX2004236',
+'20USBML1237544': '20USBHX2004668',
+'20USBML1237545': '20USBHX2004669',
+'20USBML1237546': '20USBHX2004670',
+'20USBML1237547': '20USBHX2004653',
+'20USBML1237548': '20USBHX2004554',
+'20USBML1237549': '20USBHX2004654',
+'20USBML1237550': '20USBHX2004655',
+'20USBML1237551': '',
+'20USBML1237552': '20USBHX2004656',
+'20USBML1237553': '20USBHX2004660',
+'20USBML1237554': '20USBHX2004661',
+'20USBML1237555': '20USBHX2004662',
+'20USBML1237556': '20USBHX2004663',
+'20USBML1237557': '20USBHX2004664',
+'20USBML1237558': '20USBHX2004562',
+'20USBML1237559': '20USBHX2004563',
+'20USBML1237560': '20USBHX2004564',
+'20USBML1237561': '20USBHX2004649',
+'20USBML1237562': '20USBHX2004650',
+'20USBML1237563': '20USBHX2004652',
+'20USBML1237564': '20USBHX2004830',
+'20USBML1237565': '20USBHX2004831',
+'20USBML1237566': '20USBHX2004552',
+'20USBML1237585': '20USBHX2004665',
+'20USBML1237586': '20USBHX2004553',
+'20USBML1237629': '20USBHX2004832',
+'20USBML1237630': '20USBHX2004833',
+'20USBML1237631': '20USBHX2004834',
+'20USBML1237632': '20USBHX2004835',
+'20USBML1237633': '20USBHX2004874',
+'20USBML1237634': '20USBHX2004875',
+'20USBML1237635': '20USBHX2004876',
+'20USBML1237636': '20USBHX2004877',
+'20USBML1237637': '20USBHX2004878',
+'20USBML1237638': '20USBHX2004879',
+'20USBML1237639': '20USBHX2004888',
+'20USBML1237640': '20USBHX2004889',
+'20USBML1237641': '20USBHX2004890',
+'20USBML1237642': '20USBHX2004891',
+'20USBML1237643': '20USBHX2004892',
+'20USBML1237644': '20USBHX2004893',
+'20USBML1237645': '20USBHX2004657',
+'20USBML1237646': '20USBHX2004658',
+'20USBML1237647': '20USBHX2004659',
+'20USBML1237648': '20USBHX2004836',
+'20USBML1237649': '20USBHX2004837',
+'20USBML1237650': '20USBHX2004838',
+'20USBML1237651': '20USBHX2004839',
+'20USBML1237652': '20USBHX2004840',
+'20USBML1237653': '20USBHX2004883',
+'20USBML1237657': '20USBHX2004841',
+'20USBML1237658': '20USBHX2004895',
+'20USBML1237659': '20USBHX2004896',
+'20USBML1237660': '20USBHX2004897',
+'20USBML1237661': '20USBHX2004901',
+'20USBML1237662': '20USBHX2004902',
+'20USBML1237663': '20USBHX2004903',
+'20USBML1237664': '20USBHX2004651',
+'20USBML1237665': '20USBHX2004898',
+'20USBML1237666': '20USBHX2004899',
+'20USBML1237667': '20USBHX2004886',
+'20USBML1237668': '20USBHX2004887',
+'20USBML1237669': '20USBHX2004880',
+'20USBML1237670': '20USBHX2004881',
+'20USBML1237671': '20USBHX2004882',
+'20USBML1237672': '20USBHX2004885',
+'20USBML1237673': '20USBHX2004884',
+'20USBML1237674': '20USBHX2004900',
+'20USBML1237675': '20USBHX2005064',
+'20USBML1237676': '20USBHX2005075',
+'20USBML1237677': '20USBHX2005068',
+'20USBML1237678': '20USBHX2005076',
+'20USBML1237679': '20USBHX2005077',
+'20USBML1237680': '20USBHX2005078',
+'20USBML1237681': '20USBHX2005079',
+'20USBML1237682': '20USBHX2005080',
+'20USBML1237683': '20USBHX2005081',
+'20USBML1237684': '20USBHX2004982',
+'20USBML1237685': '20USBHX2004983',
+'20USBML1237686': '20USBHX2004984',
+'20USBML1237687': '20USBHX2004985',
+'20USBML1237688': '20USBHX2004986',
+'20USBML1237689': '20USBHX2004987',
+'20USBML1237690': '20USBHX2005045',
+'20USBML1237691': '20USBHX2005047',
+'20USBML1237921': '20USBHX2005048',
+'20USBML1237922': '20USBHX2005049',
+'20USBML1237923': '20USBHX2005050',
+'20USBML1237924': '20USBHX2005051',
+'20USBML1237929': '20USBHX2005039',
+'20USBML1237930': '20USBHX2005040',
+'20USBML1237931': '20USBHX2005041',
+'20USBML1237932': '20USBHX2005042',
+'20USBML1237951': '20USBHX2005043',
+'20USBML1237952': '20USBHX2005044',
+'20USBML1237953': '20USBHX2005053',
+'20USBML1237954': '20USBHX2005054',
+'20USBML1237955': '20USBHX2005055',
+'20USBML1237956': '20USBHX2005056',
+'20USBML1237957': '20USBHX2005082',
+'20USBML1237958': '20USBHX2005083',
+'20USBML1237959': '20USBHX2005001',
+'20USBML1237960': '20USBHX2005002',
+'20USBML1237961': '20USBHX2005003',
+'20USBML1237962': '20USBHX2005004',
+'20USBML1237963': '20USBHX2005005',
+'20USBML1237964': '20USBHX2005006',
+'20USBML1237965': '20USBHX2004988',
+'20USBML1237966': '20USBHX2004989',
+'20USBML1237967': '20USBHX2004990',
+'20USBML1237968': '20USBHX2004991',
+'20USBML1237969': '20USBHX2004992',
+'20USBML1237970': '20USBHX2004993',
+'20USBML1237971': '20USBHX2004844',
+'20USBML1237972': '20USBHX2004845',
+'20USBML1237973': '20USBHX2004846',
+'20USBML1237974': '20USBHX2004847',
+'20USBML1237975': '20USBHX2004842',
+'20USBML1237976': '20USBHX2004843',
+'20USBML1237978': '20USBHX2004981',
+'20USBML1237979': '20USBHX2004994',
+'20USBML1237981': '20USBHX2005052',
+'20USBML1237982': '20USBHX2004904',
+'20USBML1237983': '20USBHX2004905',
+'20USBML1237984': '20USBHX2004906',
+'20USBML1237985': '20USBHX2005007',
+'20USBML1237986': '20USBHX2005034',
+'20USBML1237987': '20USBHX2005035',
+'20USBML1237988': '20USBHX2005065',
+'20USBML1237989': '20USBHX2005036',
+'20USBML1237990': '20USBHX2005037',
+'20USBML1237991': '20USBHX2005038',
+'20USBML1237992': '20USBHX2005066',
+'20USBML1237993': '20USBHX2005067',
+'20USBML1237994': '20USBHX2005291',
+'20USBML1237995': '20USBHX2005292',
+'20USBML1237996': '20USBHX2005299',
+'20USBML1237997': '20USBHX2005074',
+'20USBML1237998': '20USBHX2005294',
+'20USBML1237999': '20USBHX2005295',
+'20USBML1238000': '20USBHX2005296',
+'20USBML1238001': '20USBHX2005224',
+'20USBML1238002': '20USBHX2005069',
+'20USBML1238003': '20USBHX2005070',
+'20USBML1238359': '20USBHX2005297',
+'20USBML1238360': '20USBHX2005298',
+'20USBML1238361': '20USBHX2005072',
+'20USBML1238362': '20USBHX2005073',
+'20USBML1238363': '20USBHX2005223',
+'20USBML1238364': '20USBHX2005222',
+'20USBML1238365': '20USBHX2005220',
+'20USBML1238366': '20USBHX2005221',
+'20USBML1238367': '20USBHX2005219',
+'20USBML1238368': '20USBHX2005248',
+'20USBML1238369': '20USBHX2005249',
+'20USBML1238370': '20USBHX2005250',
+'20USBML1238371': '20USBHX2005251',
+'20USBML1238372': '20USBHX2005252',
+'20USBML1238373': '20USBHX2005253',
+'20USBML1238374': '20USBHX2005254',
+'20USBML1238375': '20USBHX2005229',
+'20USBML1238376': '20USBHX2005230',
+'20USBML1238377': '20USBHX2005225',
+'20USBML1238378': '20USBHX2005226',
+'20USBML1238379': '20USBHX2005227',
+'20USBML1238380': '20USBHX2005228',
+'20USBML1238381': '20USBHX2005231',
+'20USBML1238382': '20USBHX2005232',
+'20USBML1238383': '20USBHX2005233',
+'20USBML1238384': '20USBHX2005234',
+'20USBML1238385': '20USBHX2005235',
+'20USBML1238386': '20USBHX2005236',
+'20USBML1238387': '20USBHX2005522',
+'20USBML1238388': '20USBHX2005521',
+'20USBML1238389': '20USBHX2005523',
+'20USBML1238390': '20USBHX2005520',
+'20USBML1238391': '20USBHX2005524',
+'20USBML1238392': '20USBHX2005525',
+'20USBML1238393': '20USBHX2005513',
+'20USBML1238394': '20USBHX2005515',
+'20USBML1238395': '20USBHX2005514',
+'20USBML1238396': '20USBHX2005516',
+'20USBML1238397': '20USBHX2005517',
+'20USBML1238398': '20USBHX2005561',
+'20USBML1238399': '20USBHX2005518',
+'20USBML1238400': '20USBHX2005562',
+'20USBML1238401': '20USBHX2005563',
+'20USBML1238403': '20USBHX2005564',
+'20USBML1238409': '20USBHX2005566',
+'20USBML1238410': '20USBHX2005565',
+'20USBML1238411': '20USBHX2005286',
+'20USBML1238412': '20USBHX2005287',
+'20USBML1238413': '20USBHX2005289',
+'20USBML1238414': '20USBHX2005290',
+'20USBML1238415': '20USBHX2005285',
+'20USBML1238416': '20USBHX2005242',
+'20USBML1238417': '20USBHX2005237',
+'20USBML1238418': '20USBHX2005288',
+'20USBML1238419': '20USBHX2005238',
+'20USBML1238420': '20USBHX2005239',
+'20USBML1238421': '20USBHX2005240',
+'20USBML1238422': '20USBHX2005241',
+'20USBML1238423': '20USBHX2005279',
+'20USBML1238424': '20USBHX2005280',
+'20USBML1238425': '20USBHX2005281',
+'20USBML1238426': '20USBHX2005282',
+'20USBML1238427': '20USBHX2005283',
+'20USBML1238428': '20USBHX2005071',
+'20USBML1238984': '20USBHX2004871',
+'20USBML1238985': '20USBHX2004872',
+'20USBML1238986': '20USBHX2004873',
+'20USBML1238987': '20USBHX2004849',
+'20USBML1238988': '20USBHX2004850',
+'20USBML1238989': '20USBHX2004851',
+'20USBML1238990': '20USBHX2005595',
+'20USBML1238991': '20USBHX2005596',
+'20USBML1238992': '20USBHX2005597',
+'20USBML1238993': '20USBHX2005598',
+'20USBML1238994': '20USBHX2005599',
+'20USBML1238995': '20USBHX2005600',
+'20USBML1238996': '20USBHX2005243',
+'20USBML1238997': '20USBHX2005244',
+'20USBML1238998': '20USBHX2005245',
+'20USBML1238999': '20USBHX2005246',
+'20USBML1239000': '20USBHX2005247',
+'20USBML1239001': '20USBHX2005608',
+'20USBML1239002': '20USBHX2004995',
+'20USBML1239003': '20USBHX2004996',
+'20USBML1239004': '20USBHX2004997',
+'20USBML1239005': '20USBHX2004998',
+'20USBML1239006': '20USBHX2004999',
+'20USBML1239007': '20USBHX2005000',
+'20USBML1239008': '20USBHX2005602',
+'20USBML1239009': '20USBHX2005603',
+'20USBML1239010': '20USBHX2005604',
+'20USBML1239011': '20USBHX2005605',
+'20USBML1239012': '20USBHX2005606',
+'20USBML1239013': '20USBHX2005607',
+'20USBML1239014': '',
+'20USBML1239015': '',
+'20USBML1239016': '',
+'20USBML1239017': '',
+'20USBML1239018': '',
+'20USBML1239019': '',
+'20USBML1239020': '',
+'20USBML1239021': '',
+'20USBML1239022': '',
+'20USBML1239023': '',
+'20USBML1239024': '',
+'20USBML1239025': '',
+'20USBML1239026': '',
+'20USBML1239027': '',
+'20USBML1239028': '',
+'20USBML1239029': '',
+'20USBML1239030': '',
+'20USBML1239031': '',
+'20USBML1239032': '20USBHX2005284',
+"""
+
+
+# ============================================================
+# Settings
+# ============================================================
+
+test_name = "Response Curve TC"
+
+json_output_file = "timestamps_list_ucsc.json"
+txt_output_file = "formatted_timestamps_ucsc.txt"
+
+max_workers = 12
+
+
+# ============================================================
+# Helpers
+# ============================================================
+
+def add_sn_prefix(s):
+    if s is None:
+        return ""
+
+    s = str(s).strip()
+
+    if not s:
+        return ""
+
+    if s.startswith("SBML"):
+        s = "20U" + s
+
+    return s if s.startswith("SN") else f"SN{s}"
+
+
+def remove_sn_prefix(s):
+    if s is None:
+        return ""
+
+    s = str(s).strip()
+
+    if s.startswith("SN"):
+        s = s[2:]
+
+    if s.startswith("SBML"):
+        s = "20U" + s
+
+    return s
+
+
+def format_timestamp(ts):
+    """
+    Convert:
+    2025-05-29T18:47:56.395Z
+    ->
+    2025-05-29 18:47:56
+
+    Removes milliseconds.
+    """
+
+    if not ts:
+        return ""
+
+    try:
+        ts_no_ms = ts.split(".")[0]
+        dt = datetime.strptime(
+            ts_no_ms,
+            "%Y-%m-%dT%H:%M:%S"
+        )
+        return dt.strftime("%Y-%m-%d %H:%M:%S")
+
+    except Exception:
+        return (
+            ts.split(".")[0]
+            .replace("T", " ")
+            .replace("Z", "")
+        )
+
+
+def parse_raw_ml_hx_text(raw_text):
+    """
+    Supports raw text in either format:
+
+    1. CSV-style:
+       20USBML1236791, 20USBHX2003578
+
+    2. Dict-style:
+       '20USBML1236791': '20USBHX2003578',
+
+    Returns:
+    - raw_pairs
+    - hx_to_ml
+    - ml_only_pairs
+    """
+
+    pairs = []
+    hx_to_ml = {}
+    ml_only_pairs = []
+
+    pattern = re.compile(
+        r"['\"]?(20USBML\d+|SBML\d+)['\"]?\s*[:,]\s*['\"]?(20USBHX\d*)?['\"]?"
+    )
+
+    for line in raw_text.strip().splitlines():
+        line = line.strip()
+
+        if not line:
+            continue
+
+        match = pattern.search(line)
+
+        if not match:
+            continue
+
+        ml = remove_sn_prefix(match.group(1))
+        hx = remove_sn_prefix(match.group(2) or "")
+
+        pair = {
+            "ml": ml,
+            "hx": hx,
+        }
+
+        pairs.append(pair)
+
+        if hx:
+            hx_to_ml[hx] = ml
+        else:
+            ml_only_pairs.append(pair)
+
+    return pairs, hx_to_ml, ml_only_pairs
+
+
+raw_pairs, hx_to_ml, ml_only_pairs = parse_raw_ml_hx_text(raw_ml_hx_text)
+
+
+def make_client():
+    token = os.getenv("ITK_DB_AUTH")
+
+    if not token:
+        raise RuntimeError("ITK_DB_AUTH not set")
+
+    user = itkdb.core.UserBearer(bearer=token)
+
+    return itkdb.Client(user=user)
+
+
+# ============================================================
+# HX timestamp lookup only
+# ============================================================
+
+def get_hx_timestamp_entry(hx_serial):
+    """
+    Query ITkDB using HX only.
+
+    Output format:
+    ("SN20USBHX...", "SN20USBML...", "YYYY-MM-DD HH:MM:SS")
+    """
+
+    client = make_client()
+
+    hx = remove_sn_prefix(hx_serial)
+    ml = hx_to_ml.get(hx, "")
+
+    try:
+        component = client.get(
+            "getComponent",
+            json={"component": hx}
+        )
+
+        test_ids = [
+            y["id"]
+            for x in component.get("tests", [])
+            for y in x.get("testRuns", [])
+            if x.get("name") == test_name
+        ]
+
+        if not test_ids:
+            return {
+                "entry": (
+                    add_sn_prefix(hx),
+                    add_sn_prefix(ml),
+                    "",
+                ),
+                "status": "NO TEST FOUND",
+                "source": "HX",
+            }
+
+        test_run = client.get(
+            "getTestRun",
+            json={"testRun": test_ids[0]}
+        )
+
+        raw_ts = ""
+
+        if (
+            test_run.get("components")
+            and len(test_run["components"]) > 0
+        ):
+            raw_ts = test_run["components"][0].get(
+                "stateTs",
+                ""
+            )
+
+        timestamp = format_timestamp(raw_ts)
+
+        return {
+            "entry": (
+                add_sn_prefix(hx),
+                add_sn_prefix(ml),
+                timestamp,
+            ),
+            "status": "OK",
+            "source": "HX",
+        }
+
+    except Exception as e:
+        return {
+            "entry": (
+                add_sn_prefix(hx),
+                add_sn_prefix(ml),
+                "",
+            ),
+            "status": f"ERROR: {e}",
+            "source": "HX",
+        }
+
+
+def get_ml_only_entry(pair):
+    """
+    Keep ML-only rows in the output.
+
+    Output:
+    ("", "SN20USBML...", "")
+    """
+
+    ml = pair.get("ml", "")
+
+    return {
+        "entry": (
+            "",
+            add_sn_prefix(ml),
+            "",
+        ),
+        "status": "NO HX PROVIDED",
+        "source": "ML_ONLY",
+    }
+
+
+# ============================================================
+# Save outputs
+# ============================================================
+
+def save_json(results):
+    entries = [item["entry"] for item in results]
+
+    with open(json_output_file, "w") as f:
+        json.dump(entries, f, indent=2)
+
+    print(f"\n✅ Saved JSON output to {json_output_file}")
+
+
+def save_txt(results):
+    with open(txt_output_file, "w") as f:
+        f.write("Formatted timestamp output\n")
+        f.write("=" * 80 + "\n\n")
+
+        f.write("Tuple format:\n")
+        f.write('("SN20USBHX...", "SN20USBML...", "YYYY-MM-DD HH:MM:SS"),\n\n')
+
+        f.write("Results:\n")
+        f.write("-" * 80 + "\n")
+
+        for item in results:
+            hx, ml, timestamp = item["entry"]
+
+            f.write(f'("{hx}", "{ml}", "{timestamp}"),')
+
+            if item["status"] != "OK":
+                f.write(f"  # {item['status']}")
+
+            f.write("\n")
+
+    print(f"✅ Saved TXT output to {txt_output_file}")
+
+
+# ============================================================
+# Print output
+# ============================================================
+
+def print_formatted_output(results):
+    print("\nFormatted output: HX, ML, time\n")
+
+    for item in results:
+        hx, ml, timestamp = item["entry"]
+        print(f'("{hx}", "{ml}", "{timestamp}"),')
+
+
+def print_summary(results):
+    complete = []
+    missing = []
+
+    for item in results:
+        hx, ml, timestamp = item["entry"]
+
+        if hx and ml and timestamp:
+            complete.append(item)
+        else:
+            missing.append(item)
+
+    print("\n" + "=" * 80)
+    print("FINAL SUMMARY")
+    print("=" * 80)
+
+    print(f"\n✅ COMPLETE: {len(complete)}")
+    print(f"❌ MISSING / INCOMPLETE: {len(missing)}")
+
+    if missing:
+        print("\nMissing or incomplete entries, HX, ML, time:\n")
+
+        for item in missing:
+            hx, ml, timestamp = item["entry"]
+            print(
+                f'("{hx}", "{ml}", "{timestamp}"),'
+                f'   # {item["status"]}'
+            )
+
+
+# ============================================================
+# Main
+# ============================================================
+
+def main():
+    if not os.getenv("ITK_DB_AUTH"):
+        raise RuntimeError("ITK_DB_AUTH not set")
+
+    print(f"Running with {max_workers} parallel workers")
+    print(f"Total HX serials to query: {len(serial_numbers)}")
+    print(f"ML-only rows from raw text: {len(ml_only_pairs)}")
+
+    results_by_index = {}
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_index = {
+            executor.submit(get_hx_timestamp_entry, hx): i
+            for i, hx in enumerate(serial_numbers)
+        }
+
+        for future in as_completed(future_to_index):
+            i = future_to_index[future]
+            item = future.result()
+            results_by_index[i] = item
+
+            hx, ml, timestamp = item["entry"]
+
+            print(
+                f'[{len(results_by_index)}/{len(serial_numbers)}] '
+                f'("{hx}", "{ml}", "{timestamp}") '
+                f'-> {item["status"]}'
+            )
+
+    results = [
+        results_by_index[i]
+        for i in range(len(serial_numbers))
+    ]
+
+    # Add ML-only rows after HX results
+    for pair in ml_only_pairs:
+        results.append(get_ml_only_entry(pair))
+
+    save_json(results)
+    save_txt(results)
+    print_formatted_output(results)
+    print_summary(results)
+
+    print("\nDone.")
+
+
+if __name__ == "__main__":
+    main()
