@@ -1,0 +1,275 @@
+import re
+
+text = """
+
+================================================================================
+Category A
+IV current values above threshold.
+================================================================================
+
+SN20USBML1235761
+----------------
+1. SN20USBML1235761_03.json — HIGH CURRENT WARNING: maximum current = 396.23 nA (> 300 nA)
+2. SN20USBML1235761_04.json — HIGH CURRENT WARNING: maximum current = 320.25 nA (> 300 nA)
+3. SN20USBML1235761_05.json — HIGH CURRENT WARNING: maximum current = 394.86 nA (> 300 nA)
+4. SN20USBML1235761_06.json — HIGH CURRENT WARNING: maximum current = 321.97 nA (> 300 nA)
+5. SN20USBML1235761_07.json — HIGH CURRENT WARNING: maximum current = 397.28 nA (> 300 nA)
+6. SN20USBML1235761_08.json — HIGH CURRENT WARNING: maximum current = 324.53 nA (> 300 nA)
+7. SN20USBML1235761_09.json — HIGH CURRENT WARNING: maximum current = 396.38 nA (> 300 nA)
+8. SN20USBML1235761_10.json — HIGH CURRENT WARNING: maximum current = 323.98 nA (> 300 nA)
+9. SN20USBML1235761_11.json — HIGH CURRENT WARNING: maximum current = 397.46 nA (> 300 nA)
+10. SN20USBML1235761_12.json — HIGH CURRENT WARNING: maximum current = 322.44 nA (> 300 nA)
+11. SN20USBML1235761_13.json — HIGH CURRENT WARNING: maximum current = 396.55 nA (> 300 nA)
+12. SN20USBML1235761_14.json — HIGH CURRENT WARNING: maximum current = 321.36 nA (> 300 nA)
+13. SN20USBML1235761_15.json — HIGH CURRENT WARNING: maximum current = 395.76 nA (> 300 nA)
+14. SN20USBML1235761_16.json — HIGH CURRENT WARNING: maximum current = 319.30 nA (> 300 nA)
+15. SN20USBML1235761_17.json — HIGH CURRENT WARNING: maximum current = 394.52 nA (> 300 nA)
+16. SN20USBML1235761_18.json — HIGH CURRENT WARNING: maximum current = 316.59 nA (> 300 nA)
+17. SN20USBML1235761_19.json — HIGH CURRENT WARNING: maximum current = 397.56 nA (> 300 nA)
+18. SN20USBML1235761_20.json — HIGH CURRENT WARNING: maximum current = 321.33 nA (> 300 nA)
+19. SN20USBML1235761_21.json — HIGH CURRENT WARNING: maximum current = 394.27 nA (> 300 nA)
+20. SN20USBML1235761_23.json — HIGH CURRENT WARNING: maximum current = 396.55 nA (> 300 nA)
+
+SN20USBML1235873
+----------------
+1. SN20USBML1235873_02.json — HIGH CURRENT WARNING: maximum current = 2246.41 nA (> 300 nA)
+2. SN20USBML1235873_06.json — HIGH CURRENT WARNING: maximum current = 3604.07 nA (> 300 nA)
+3. SN20USBML1235873_08.json — HIGH CURRENT WARNING: maximum current = 4777.20 nA (> 300 nA)
+4. SN20USBML1235873_10.json — HIGH CURRENT WARNING: maximum current = 5014.41 nA (> 300 nA)
+5. SN20USBML1235873_12.json — HIGH CURRENT WARNING: maximum current = 5199.11 nA (> 300 nA)
+6. SN20USBML1235873_14.json — HIGH CURRENT WARNING: maximum current = 4880.63 nA (> 300 nA)
+7. SN20USBML1235873_16.json — HIGH CURRENT WARNING: maximum current = 5125.08 nA (> 300 nA)
+8. SN20USBML1235873_18.json — HIGH CURRENT WARNING: maximum current = 4849.33 nA (> 300 nA)
+9. SN20USBML1235873_20.json — HIGH CURRENT WARNING: maximum current = 5475.23 nA (> 300 nA)
+10. SN20USBML1235873_22.json — HIGH CURRENT WARNING: maximum current = 8388.72 nA (> 300 nA)
+11. SN20USBML1235873_24.json — HIGH CURRENT WARNING: maximum current = 9144.05 nA (> 300 nA)
+
+SN20USBML1235879
+----------------
+1. SN20USBML1235879_03.json — HIGH CURRENT WARNING: maximum current = 416.59 nA (> 300 nA)
+2. SN20USBML1235879_04.json — HIGH CURRENT WARNING: maximum current = 337.37 nA (> 300 nA)
+3. SN20USBML1235879_05.json — HIGH CURRENT WARNING: maximum current = 407.48 nA (> 300 nA)
+4. SN20USBML1235879_06.json — HIGH CURRENT WARNING: maximum current = 330.13 nA (> 300 nA)
+5. SN20USBML1235879_07.json — HIGH CURRENT WARNING: maximum current = 407.45 nA (> 300 nA)
+6. SN20USBML1235879_08.json — HIGH CURRENT WARNING: maximum current = 331.70 nA (> 300 nA)
+7. SN20USBML1235879_09.json — HIGH CURRENT WARNING: maximum current = 406.97 nA (> 300 nA)
+8. SN20USBML1235879_10.json — HIGH CURRENT WARNING: maximum current = 332.35 nA (> 300 nA)
+9. SN20USBML1235879_11.json — HIGH CURRENT WARNING: maximum current = 405.22 nA (> 300 nA)
+10. SN20USBML1235879_12.json — HIGH CURRENT WARNING: maximum current = 329.72 nA (> 300 nA)
+11. SN20USBML1235879_13.json — HIGH CURRENT WARNING: maximum current = 408.16 nA (> 300 nA)
+12. SN20USBML1235879_14.json — HIGH CURRENT WARNING: maximum current = 328.99 nA (> 300 nA)
+13. SN20USBML1235879_15.json — HIGH CURRENT WARNING: maximum current = 406.90 nA (> 300 nA)
+14. SN20USBML1235879_16.json — HIGH CURRENT WARNING: maximum current = 330.96 nA (> 300 nA)
+15. SN20USBML1235879_17.json — HIGH CURRENT WARNING: maximum current = 405.01 nA (> 300 nA)
+16. SN20USBML1235879_18.json — HIGH CURRENT WARNING: maximum current = 329.94 nA (> 300 nA)
+17. SN20USBML1235879_19.json — HIGH CURRENT WARNING: maximum current = 408.37 nA (> 300 nA)
+18. SN20USBML1235879_20.json — HIGH CURRENT WARNING: maximum current = 331.23 nA (> 300 nA)
+19. SN20USBML1235879_21.json — HIGH CURRENT WARNING: maximum current = 407.11 nA (> 300 nA)
+20. SN20USBML1235879_23.json — HIGH CURRENT WARNING: maximum current = 417.39 nA (> 300 nA)
+
+SN20USBML1236096
+----------------
+1. SN20USBML1236096_22.json — HIGH CURRENT WARNING: maximum current = 369.58 nA (> 300 nA)
+
+SN20USBML1236451
+----------------
+1. SN20USBML1236451_03.json — HIGH CURRENT WARNING: maximum current = 389.80 nA (> 300 nA)
+2. SN20USBML1236451_05.json — HIGH CURRENT WARNING: maximum current = 386.31 nA (> 300 nA)
+3. SN20USBML1236451_07.json — HIGH CURRENT WARNING: maximum current = 384.32 nA (> 300 nA)
+4. SN20USBML1236451_09.json — HIGH CURRENT WARNING: maximum current = 384.43 nA (> 300 nA)
+5. SN20USBML1236451_11.json — HIGH CURRENT WARNING: maximum current = 382.61 nA (> 300 nA)
+6. SN20USBML1236451_13.json — HIGH CURRENT WARNING: maximum current = 386.72 nA (> 300 nA)
+7. SN20USBML1236451_15.json — HIGH CURRENT WARNING: maximum current = 383.53 nA (> 300 nA)
+8. SN20USBML1236451_17.json — HIGH CURRENT WARNING: maximum current = 385.40 nA (> 300 nA)
+9. SN20USBML1236451_19.json — HIGH CURRENT WARNING: maximum current = 384.72 nA (> 300 nA)
+10. SN20USBML1236451_21.json — HIGH CURRENT WARNING: maximum current = 383.76 nA (> 300 nA)
+11. SN20USBML1236451_23.json — HIGH CURRENT WARNING: maximum current = 385.98 nA (> 300 nA)
+
+SN20USBML1236611
+----------------
+1. SN20USBML1236611_23.json — HIGH CURRENT WARNING: maximum current = 2095.65 nA (> 300 nA)
+2. SN20USBML1236611_24.json — HIGH CURRENT WARNING: maximum current = 4268.46 nA (> 300 nA)
+
+SN20USBML1236692
+----------------
+1. SN20USBML1236692_03.json — HIGH CURRENT WARNING: maximum current = 390.97 nA (> 300 nA)
+2. SN20USBML1236692_04.json — HIGH CURRENT WARNING: maximum current = 316.95 nA (> 300 nA)
+3. SN20USBML1236692_05.json — HIGH CURRENT WARNING: maximum current = 389.97 nA (> 300 nA)
+4. SN20USBML1236692_06.json — HIGH CURRENT WARNING: maximum current = 314.15 nA (> 300 nA)
+5. SN20USBML1236692_07.json — HIGH CURRENT WARNING: maximum current = 389.28 nA (> 300 nA)
+6. SN20USBML1236692_08.json — HIGH CURRENT WARNING: maximum current = 314.61 nA (> 300 nA)
+7. SN20USBML1236692_09.json — HIGH CURRENT WARNING: maximum current = 393.51 nA (> 300 nA)
+8. SN20USBML1236692_10.json — HIGH CURRENT WARNING: maximum current = 315.40 nA (> 300 nA)
+9. SN20USBML1236692_11.json — HIGH CURRENT WARNING: maximum current = 388.62 nA (> 300 nA)
+10. SN20USBML1236692_12.json — HIGH CURRENT WARNING: maximum current = 316.40 nA (> 300 nA)
+11. SN20USBML1236692_13.json — HIGH CURRENT WARNING: maximum current = 389.57 nA (> 300 nA)
+12. SN20USBML1236692_14.json — HIGH CURRENT WARNING: maximum current = 315.00 nA (> 300 nA)
+13. SN20USBML1236692_15.json — HIGH CURRENT WARNING: maximum current = 392.87 nA (> 300 nA)
+14. SN20USBML1236692_16.json — HIGH CURRENT WARNING: maximum current = 316.36 nA (> 300 nA)
+15. SN20USBML1236692_17.json — HIGH CURRENT WARNING: maximum current = 389.83 nA (> 300 nA)
+16. SN20USBML1236692_18.json — HIGH CURRENT WARNING: maximum current = 312.88 nA (> 300 nA)
+17. SN20USBML1236692_19.json — HIGH CURRENT WARNING: maximum current = 388.95 nA (> 300 nA)
+18. SN20USBML1236692_20.json — HIGH CURRENT WARNING: maximum current = 315.06 nA (> 300 nA)
+19. SN20USBML1236692_21.json — HIGH CURRENT WARNING: maximum current = 393.32 nA (> 300 nA)
+20. SN20USBML1236692_23.json — HIGH CURRENT WARNING: maximum current = 390.85 nA (> 300 nA)
+
+SN20USBML1236706
+----------------
+1. SN20USBML1236706_01.json — HIGH CURRENT WARNING: maximum current = 427.03 nA (> 300 nA)
+2. SN20USBML1236706_02.json — HIGH CURRENT WARNING: maximum current = 4061.53 nA (> 300 nA)
+3. SN20USBML1236706_04.json — HIGH CURRENT WARNING: maximum current = 4183.94 nA (> 300 nA)
+4. SN20USBML1236706_06.json — HIGH CURRENT WARNING: maximum current = 4236.70 nA (> 300 nA)
+5. SN20USBML1236706_08.json — HIGH CURRENT WARNING: maximum current = 4214.29 nA (> 300 nA)
+6. SN20USBML1236706_10.json — HIGH CURRENT WARNING: maximum current = 4194.69 nA (> 300 nA)
+7. SN20USBML1236706_12.json — HIGH CURRENT WARNING: maximum current = 4199.33 nA (> 300 nA)
+8. SN20USBML1236706_14.json — HIGH CURRENT WARNING: maximum current = 4199.09 nA (> 300 nA)
+9. SN20USBML1236706_16.json — HIGH CURRENT WARNING: maximum current = 4199.54 nA (> 300 nA)
+10. SN20USBML1236706_18.json — HIGH CURRENT WARNING: maximum current = 4189.95 nA (> 300 nA)
+11. SN20USBML1236706_20.json — HIGH CURRENT WARNING: maximum current = 4203.77 nA (> 300 nA)
+12. SN20USBML1236706_22.json — HIGH CURRENT WARNING: maximum current = 4069.50 nA (> 300 nA)
+13. SN20USBML1236706_24.json — HIGH CURRENT WARNING: maximum current = 6152.96 nA (> 300 nA)
+
+SN20USBML1236711
+----------------
+1. SN20USBML1236711_01.json — HIGH CURRENT WARNING: maximum current = 472.76 nA (> 300 nA)
+2. SN20USBML1236711_02.json — HIGH CURRENT WARNING: maximum current = 347.24 nA (> 300 nA)
+3. SN20USBML1236711_03.json — HIGH CURRENT WARNING: maximum current = 471.51 nA (> 300 nA)
+4. SN20USBML1236711_04.json — HIGH CURRENT WARNING: maximum current = 347.75 nA (> 300 nA)
+5. SN20USBML1236711_05.json — HIGH CURRENT WARNING: maximum current = 476.19 nA (> 300 nA)
+6. SN20USBML1236711_06.json — HIGH CURRENT WARNING: maximum current = 346.97 nA (> 300 nA)
+7. SN20USBML1236711_07.json — HIGH CURRENT WARNING: maximum current = 469.91 nA (> 300 nA)
+8. SN20USBML1236711_08.json — HIGH CURRENT WARNING: maximum current = 345.98 nA (> 300 nA)
+9. SN20USBML1236711_09.json — HIGH CURRENT WARNING: maximum current = 472.26 nA (> 300 nA)
+10. SN20USBML1236711_10.json — HIGH CURRENT WARNING: maximum current = 344.57 nA (> 300 nA)
+11. SN20USBML1236711_11.json — HIGH CURRENT WARNING: maximum current = 474.30 nA (> 300 nA)
+12. SN20USBML1236711_12.json — HIGH CURRENT WARNING: maximum current = 343.22 nA (> 300 nA)
+13. SN20USBML1236711_13.json — HIGH CURRENT WARNING: maximum current = 470.02 nA (> 300 nA)
+14. SN20USBML1236711_14.json — HIGH CURRENT WARNING: maximum current = 344.84 nA (> 300 nA)
+15. SN20USBML1236711_15.json — HIGH CURRENT WARNING: maximum current = 470.15 nA (> 300 nA)
+16. SN20USBML1236711_16.json — HIGH CURRENT WARNING: maximum current = 345.77 nA (> 300 nA)
+17. SN20USBML1236711_17.json — HIGH CURRENT WARNING: maximum current = 471.38 nA (> 300 nA)
+18. SN20USBML1236711_19.json — HIGH CURRENT WARNING: maximum current = 469.34 nA (> 300 nA)
+
+SN20USBML1236728
+----------------
+1. SN20USBML1236728_03.json — HIGH CURRENT WARNING: maximum current = 374.03 nA (> 300 nA)
+2. SN20USBML1236728_04.json — HIGH CURRENT WARNING: maximum current = 321.01 nA (> 300 nA)
+3. SN20USBML1236728_05.json — HIGH CURRENT WARNING: maximum current = 373.93 nA (> 300 nA)
+4. SN20USBML1236728_06.json — HIGH CURRENT WARNING: maximum current = 320.47 nA (> 300 nA)
+5. SN20USBML1236728_07.json — HIGH CURRENT WARNING: maximum current = 373.36 nA (> 300 nA)
+6. SN20USBML1236728_08.json — HIGH CURRENT WARNING: maximum current = 320.96 nA (> 300 nA)
+7. SN20USBML1236728_09.json — HIGH CURRENT WARNING: maximum current = 372.45 nA (> 300 nA)
+8. SN20USBML1236728_10.json — HIGH CURRENT WARNING: maximum current = 320.69 nA (> 300 nA)
+9. SN20USBML1236728_11.json — HIGH CURRENT WARNING: maximum current = 372.31 nA (> 300 nA)
+10. SN20USBML1236728_12.json — HIGH CURRENT WARNING: maximum current = 320.82 nA (> 300 nA)
+11. SN20USBML1236728_13.json — HIGH CURRENT WARNING: maximum current = 372.76 nA (> 300 nA)
+12. SN20USBML1236728_14.json — HIGH CURRENT WARNING: maximum current = 321.80 nA (> 300 nA)
+13. SN20USBML1236728_15.json — HIGH CURRENT WARNING: maximum current = 372.93 nA (> 300 nA)
+14. SN20USBML1236728_16.json — HIGH CURRENT WARNING: maximum current = 323.08 nA (> 300 nA)
+15. SN20USBML1236728_17.json — HIGH CURRENT WARNING: maximum current = 374.01 nA (> 300 nA)
+16. SN20USBML1236728_18.json — HIGH CURRENT WARNING: maximum current = 319.97 nA (> 300 nA)
+17. SN20USBML1236728_19.json — HIGH CURRENT WARNING: maximum current = 369.50 nA (> 300 nA)
+18. SN20USBML1236728_20.json — HIGH CURRENT WARNING: maximum current = 319.77 nA (> 300 nA)
+19. SN20USBML1236728_21.json — HIGH CURRENT WARNING: maximum current = 373.64 nA (> 300 nA)
+20. SN20USBML1236728_23.json — HIGH CURRENT WARNING: maximum current = 373.56 nA (> 300 nA)
+
+SN20USBML1237014
+----------------
+1. SN20USBML1237014_08.json — HIGH CURRENT WARNING: maximum current = 699.93 nA (> 300 nA)
+2. SN20USBML1237014_10.json — HIGH CURRENT WARNING: maximum current = 1242.81 nA (> 300 nA)
+3. SN20USBML1237014_12.json — HIGH CURRENT WARNING: maximum current = 2276.02 nA (> 300 nA)
+4. SN20USBML1237014_14.json — HIGH CURRENT WARNING: maximum current = 2854.20 nA (> 300 nA)
+5. SN20USBML1237014_16.json — HIGH CURRENT WARNING: maximum current = 3439.22 nA (> 300 nA)
+6. SN20USBML1237014_18.json — HIGH CURRENT WARNING: maximum current = 4212.66 nA (> 300 nA)
+7. SN20USBML1237014_20.json — HIGH CURRENT WARNING: maximum current = 5621.20 nA (> 300 nA)
+
+SN20USBML1237028
+----------------
+1. SN20USBML1237028_01.json — HIGH CURRENT WARNING: maximum current = 576.72 nA (> 300 nA)
+2. SN20USBML1237028_02.json — HIGH CURRENT WARNING: maximum current = 2711.52 nA (> 300 nA)
+3. SN20USBML1237028_22.json — HIGH CURRENT WARNING: maximum current = 3622.67 nA (> 300 nA)
+
+SN20USBML1237091
+----------------
+1. SN20USBML1237091_01.json — HIGH CURRENT WARNING: maximum current = 614.53 nA (> 300 nA)
+2. SN20USBML1237091_02.json — HIGH CURRENT WARNING: maximum current = 352.90 nA (> 300 nA)
+3. SN20USBML1237091_03.json — HIGH CURRENT WARNING: maximum current = 488.96 nA (> 300 nA)
+4. SN20USBML1237091_05.json — HIGH CURRENT WARNING: maximum current = 492.26 nA (> 300 nA)
+5. SN20USBML1237091_07.json — HIGH CURRENT WARNING: maximum current = 487.14 nA (> 300 nA)
+6. SN20USBML1237091_09.json — HIGH CURRENT WARNING: maximum current = 485.87 nA (> 300 nA)
+7. SN20USBML1237091_11.json — HIGH CURRENT WARNING: maximum current = 491.56 nA (> 300 nA)
+8. SN20USBML1237091_13.json — HIGH CURRENT WARNING: maximum current = 487.67 nA (> 300 nA)
+9. SN20USBML1237091_15.json — HIGH CURRENT WARNING: maximum current = 487.08 nA (> 300 nA)
+10. SN20USBML1237091_17.json — HIGH CURRENT WARNING: maximum current = 485.02 nA (> 300 nA)
+11. SN20USBML1237091_19.json — HIGH CURRENT WARNING: maximum current = 494.34 nA (> 300 nA)
+12. SN20USBML1237091_21.json — HIGH CURRENT WARNING: maximum current = 487.15 nA (> 300 nA)
+13. SN20USBML1237091_22.json — HIGH CURRENT WARNING: maximum current = 352.58 nA (> 300 nA)
+14. SN20USBML1237091_23.json — HIGH CURRENT WARNING: maximum current = 487.27 nA (> 300 nA)
+15. SN20USBML1237091_24.json — HIGH CURRENT WARNING: maximum current = 609.64 nA (> 300 nA)
+
+SN20USBML1237093
+----------------
+1. SN20USBML1237093_01.json — HIGH CURRENT WARNING: maximum current = 1340.48 nA (> 300 nA)
+2. SN20USBML1237093_02.json — HIGH CURRENT WARNING: maximum current = 695.39 nA (> 300 nA)
+3. SN20USBML1237093_03.json — HIGH CURRENT WARNING: maximum current = 622.48 nA (> 300 nA)
+4. SN20USBML1237093_05.json — HIGH CURRENT WARNING: maximum current = 563.61 nA (> 300 nA)
+5. SN20USBML1237093_07.json — HIGH CURRENT WARNING: maximum current = 541.81 nA (> 300 nA)
+6. SN20USBML1237093_09.json — HIGH CURRENT WARNING: maximum current = 565.02 nA (> 300 nA)
+7. SN20USBML1237093_11.json — HIGH CURRENT WARNING: maximum current = 519.40 nA (> 300 nA)
+8. SN20USBML1237093_13.json — HIGH CURRENT WARNING: maximum current = 517.32 nA (> 300 nA)
+9. SN20USBML1237093_15.json — HIGH CURRENT WARNING: maximum current = 511.11 nA (> 300 nA)
+10. SN20USBML1237093_17.json — HIGH CURRENT WARNING: maximum current = 492.36 nA (> 300 nA)
+11. SN20USBML1237093_19.json — HIGH CURRENT WARNING: maximum current = 484.36 nA (> 300 nA)
+12. SN20USBML1237093_21.json — HIGH CURRENT WARNING: maximum current = 483.29 nA (> 300 nA)
+13. SN20USBML1237093_22.json — HIGH CURRENT WARNING: maximum current = 404.79 nA (> 300 nA)
+14. SN20USBML1237093_23.json — HIGH CURRENT WARNING: maximum current = 469.11 nA (> 300 nA)
+15. SN20USBML1237093_24.json — HIGH CURRENT WARNING: maximum current = 1026.74 nA (> 300 nA)
+
+SN20USBML1237099
+----------------
+1. SN20USBML1237099_02.json — HIGH CURRENT WARNING: maximum current = 847.78 nA (> 300 nA)
+2. SN20USBML1237099_12.json — HIGH CURRENT WARNING: maximum current = 749.31 nA (> 300 nA)
+3. SN20USBML1237099_14.json — HIGH CURRENT WARNING: maximum current = 1651.27 nA (> 300 nA)
+4. SN20USBML1237099_16.json — HIGH CURRENT WARNING: maximum current = 2569.00 nA (> 300 nA)
+5. SN20USBML1237099_18.json — HIGH CURRENT WARNING: maximum current = 3369.20 nA (> 300 nA)
+6. SN20USBML1237099_20.json — HIGH CURRENT WARNING: maximum current = 3683.94 nA (> 300 nA)
+7. SN20USBML1237099_22.json — HIGH CURRENT WARNING: maximum current = 3160.11 nA (> 300 nA)
+
+SN20USBML1237117
+----------------
+1. SN20USBML1237117_06.json — HIGH CURRENT WARNING: maximum current = 935.15 nA (> 300 nA)
+2. SN20USBML1237117_08.json — HIGH CURRENT WARNING: maximum current = 11348.42 nA (> 300 nA)
+3. SN20USBML1237117_10.json — HIGH CURRENT WARNING: maximum current = 10223.61 nA (> 300 nA)
+4. SN20USBML1237117_12.json — HIGH CURRENT WARNING: maximum current = 12541.36 nA (> 300 nA)
+5. SN20USBML1237117_14.json — HIGH CURRENT WARNING: maximum current = 11860.06 nA (> 300 nA)
+6. SN20USBML1237117_16.json — HIGH CURRENT WARNING: maximum current = 11379.92 nA (> 300 nA)
+7. SN20USBML1237117_18.json — HIGH CURRENT WARNING: maximum current = 10439.05 nA (> 300 nA)
+8. SN20USBML1237117_20.json — HIGH CURRENT WARNING: maximum current = 12188.76 nA (> 300 nA)
+9. SN20USBML1237117_22.json — HIGH CURRENT WARNING: maximum current = 10161.67 nA (> 300 nA)
+10. SN20USBML1237117_24.json — HIGH CURRENT WARNING: maximum current = 12694.58 nA (> 300 nA)
+
+SN20USBML1237462
+----------------
+1. SN20USBML1237462_02.json — HIGH CURRENT WARNING: maximum current = 1656.98 nA (> 300 nA)
+2. SN20USBML1237462_18.json — HIGH CURRENT WARNING: maximum current = 307.22 nA (> 300 nA)
+3. SN20USBML1237462_20.json — HIGH CURRENT WARNING: maximum current = 723.09 nA (> 300 nA)
+4. SN20USBML1237462_22.json — HIGH CURRENT WARNING: maximum current = 3244.80 nA (> 300 nA)
+
+"""
+
+# Find serials like SN20USBML1236980, 20USBML1236980, SN20USBHX2004272, etc.
+serials = re.findall(r'\bSN?(20USB(?:HX|ML)\d+)\b', text)
+
+# Remove duplicates but keep original order
+unique_serials = []
+seen = set()
+
+for serial in serials:
+    if serial not in seen:
+        unique_serials.append(serial)
+        seen.add(serial)
+
+# Print in requested format
+for serial in unique_serials:
+    print(f'"{serial}",')
+    print()
